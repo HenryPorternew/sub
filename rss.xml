@@ -1,1 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>t</title>
+    <link>l</link>
+    <description>d</description>
+    <item>
+      <title>a</title>
+      <link>a</link>
+      <description>a</description>
+    </item>
+    <item>
+      <title>b</title>
+      <link>b</link>
+      <description>b</description>
+    </item>
+  </channel>
+</rss>

@@ -1,3 +1,4 @@
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.163:8880?encryption=none&security=none&type=grpc&authority=%2FBIA_TELEGRAM@MARAMBASHI_MARAMBASHI&mode=gun#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%BA%F0%9F%87%B8US+%F0%9F%8C%80@DeamNet_Proxy
 vless://f2a72ad0-d23f-4eed-96cb-7d970b1e784d@194.76.18.50:80?encryption=none&security=none&type=ws&host=ov-germany1.09vpn.com&path=%2Fvless%2F#%F0%9F%87%B0%F0%9F%87%BFKZ+-%3E+%F0%9F%87%A9%F0%9F%87%AADE+%F0%9F%8C%80@DeamNet_Proxy
 vless://e20ebe01-1815-4c09-8e77-fb2f168263ce@147135001178.sec22org.com:443?encryption=none&security=tls&fp=chrome&type=raw&headertype=none#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%BA%F0%9F%87%B8US+%F0%9F%8C%80@DeamNet_Proxy
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=%2FJOKERRVPNJoin_Bade_Channel@JOKERRVPN%3Fed%3D2560#%F0%9F%87%A8%F0%9F%87%A6CA+-%3E+%F0%9F%87%AB%F0%9F%87%B7FR+%F0%9F%8C%80@DeamNet_Proxy
@@ -58,4 +59,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.157:8080#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%B3%F0%9F%87%B1NL+%F0%9F%8C%80@DeamNet_Proxy
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.166:8880?encryption=none&security=none&type=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%BA%F0%9F%87%B8US+%F0%9F%8C%80@DeamNet_Proxy
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.163:8880?encryption=none&security=none&type=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%BA%F0%9F%87%B8US+%F0%9F%8C%80@DeamNet_Proxy
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.188:8080#%F0%9F%87%BA%F0%9F%87%B8US+-%3E+%F0%9F%87%B3%F0%9F%87%B1NL+%F0%9F%8C%80@DeamNet_Proxy

@@ -3,7 +3,16 @@ allow-lan: true
 mode: Rule
 log-level: silent
 proxies:
-  - name: "DE->DE->RTL->@DeamNet_Proxy_0"
+  - name: "DE->->RTL->@DeamNet_Proxy_0"
+    type: vmess
+    server: yal.fxlcn.com
+    port: 45263
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->RTL->@DeamNet_Proxy_1"
     type: vmess
     server: 57.129.24.124
     port: 443
@@ -15,1450 +24,12 @@ proxies:
     ws-opts:
       path: /linkvws
       headers:
-        Host: aveiror.com
-    tls: true
-    skip-cert-verify: true
-    servername: vkvd127.mycdn.me
-
-  - name: "VN->VN->RTL->@DeamNet_Proxy_3"
-    type: ss
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
-
-  - name: "RU->RU->MTN->@DeamNet_Proxy_4"
-    type: vmess
-    server: 31.129.105.239
-    port: 16231
-    udp: true
-    uuid: 793e03cc-2b08-4d1b-bb0b-592567d19043
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 31.129.105.239
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_5"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_6"
-    type: vmess
-    server: 57.129.25.20
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: 57.129.25.20
-    tls: true
-    skip-cert-verify: true
-    servername: 57.129.25.20
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_11"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: rUX6AnPwS4ymf9RKDwaW21vyxXuwVnVCrmmLsxUXjjZi7CfCJxoMbNrzwQfZSogzbDPHhkB8za1Ruhj1hGnwyTn3q1no1XRX
-
-  - name: "GB->->RTL->@DeamNet_Proxy_12"
-    type: ss
-    server: admin.c3.webramz.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-
-  - name: "HK->HK->ADL->@DeamNet_Proxy_13"
-    type: ss
-    server: 203.23.128.33
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "FR->FR->RTL->@DeamNet_Proxy_16"
-    type: vmess
-    server: beyonddsz.cfd
-    port: 443
-    udp: true
-    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: beyonddsz.cfd
-    tls: true
-    skip-cert-verify: true
-    servername: beyonddsz.cfd
-
-  - name: "GB->->MTN->@DeamNet_Proxy_18"
-    type: ss
-    server: admin.c2.webramz.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: WstuSnlu4ieA9M0L
-
-  - name: "CA->US->ADL->@DeamNet_Proxy_21"
-    type: vmess
-    server: cf.fovi.tk
-    port: 443
-    udp: true
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxlux.fovi.tk
-    tls: true
-    skip-cert-verify: true
-    servername: foxlux.fovi.tk
-
-  - name: "VE->NL->RTL->@DeamNet_Proxy_27"
-    type: ss
-    server: 45.158.171.132
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: fbx1Fw7mENCd7vZMvorQZ5
-
-  - name: "CA->DE->MTN->@DeamNet_Proxy_28"
-    type: vmess
-    server: kapelleng.com
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: kapelleng.com
-    tls: true
-    skip-cert-verify: true
-    servername: kapelleng.com
-
-  - name: "BR->BR->ADL->@DeamNet_Proxy_31"
-    type: vmess
-    server: 95.164.4.88
-    port: 80
-    udp: true
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: pq-brazil1.09vpn.com
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_33"
-    type: vmess
-    server: 57.129.25.25
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
+        Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     tls: true
     skip-cert-verify: true
     servername: 
 
-  - name: "US->US->ADL->@DeamNet_Proxy_35"
-    type: ss
-    server: 67.220.95.102
-    port: 8000
-    udp: true
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-
-  - name: "US->US->ADL->@DeamNet_Proxy_36"
-    type: ss
-    server: 144.126.146.38
-    port: 30789
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 8d73e088-dc5a-4dfe-8927-56351ee80407
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_37"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2A1BYU7JRBQmYUssD4ihsuS9hehEZGec5NghiRbWaMPemeAQqMWfUjfVPRZGQ4eZh5UMiVJDc7QzkdjmHHqhFWxF7UACad57
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_40"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 26nQrXS2gHzre7p9krA1vh1Eh3bhdche96gYRsA3JX338ShUzBZE4M4dWNVUe99WTJVdngpTjRL1Ppn2XArynpV296wh3U6w
-
-  - name: "GB->->ADL->@DeamNet_Proxy_45"
-    type: ss
-    server: admin.c4.webramz.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 69MUii7VDwMqh7Hz
-
-  - name: "GB->->ADL->@DeamNet_Proxy_50"
-    type: ss
-    server: admin.c3.webramz.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: AlCsBGpsejHdVCME
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_54"
-    type: ss
-    server: 45.87.175.69
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "CA->FR->RTL->@DeamNet_Proxy_55"
-    type: vmess
-    server: 172.67.207.26
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_56"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9
-
-  - name: "ID->ID->ADL->@DeamNet_Proxy_57"
-    type: ss
-    server: 154.205.159.100
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "NL->NL->ADL->@DeamNet_Proxy_58"
-    type: ss
-    server: exchange.gameaurela.click
-    port: 52952
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
-
-  - name: "CA->->RTL->@DeamNet_Proxy_60"
-    type: vmess
-    server: 172.67.170.103
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "GB->GB->RTL->@DeamNet_Proxy_62"
-    type: ss
-    server: series-a2-me.samanehha.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_64"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
-
-  - name: "SG->SG->ADL->@DeamNet_Proxy_67"
-    type: vmess
-    server: 84.247.147.243
-    port: 51566
-    udp: true
-    uuid: ae6ae977-17f2-43fd-a336-20b3b3a9e791
-    alterId: 0
-    cipher: auto
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_68"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW
-
-  - name: "CA->FR->RTL->@DeamNet_Proxy_73"
-    type: vmess
-    server: 172.67.170.103
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "SE->SE->RTL->@DeamNet_Proxy_76"
-    type: trojan
-    server: 109.120.132.80
-    port: 2025
-    udp: true
-    password: vpn
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: vkvd127.mycdn.me
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "DE->DE->RTL->@DeamNet_Proxy_77"
-    type: vmess
-    server: 57.129.24.124
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "CO->CO->ADL->@DeamNet_Proxy_78"
-    type: ss
-    server: 181.119.30.20
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_80"
-    type: vmess
-    server: 112.132.215.12
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_83"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: ENfXcbbP8P2ykc1ypjV22J4hdNwTWuxDWqs5GX2mnH6GMCqL5XyhNztpn7oPzK9nyToReNDbnbV3E1gsEh98GYJrBKMf6HrS
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_87"
-    type: ss
-    server: 45.87.175.10
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_88"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: wUcoYw1SAVnxhKb1PGmqe69uCJjggJoDogXfPCmDCkvhnM1mJbExnxJethPBEiC49dsUdurRBCn9gh2U231vYAyYPSwtYAaw
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_89"
-    type: ss
-    server: 45.87.175.199
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_92"
-    type: ss
-    server: 45.87.175.157
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_94"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 94wmMoMPkmrWhgSg3qoWTTLdyDXToQyL654pMeQq91uMpWY2hUZxg5NRQfKfiVGXvyRnt9fd8oV5RWaCfCj5Yu7VFGrhkixE
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_99"
-    type: vmess
-    server: 47.116.166.178
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-
-  - name: "PL->PL->ADL->@DeamNet_Proxy_102"
-    type: vmess
-    server: 146.59.55.50
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: o.metuji.com
-    tls: true
-    skip-cert-verify: true
-    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-
-  - name: "US->US->RTL->@DeamNet_Proxy_104"
-    type: vmess
-    server: 2.58.87.221
-    port: 12269
-    udp: true
-    uuid: db85ff0e-c33f-401d-c415-4c7cce135704
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_107"
-    type: vmess
-    server: 57.129.41.216
-    port: 8443
-    udp: true
-    uuid: 3967c059-865d-40af-ba3c-8abc9ba5c7f8
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-    tls: true
-    skip-cert-verify: true
-    servername: ov-germany1.09vpn.com
-
-  - name: "VE->NL->RTL->@DeamNet_Proxy_108"
-    type: ss
-    server: 45.158.171.151
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "FR->FR->ADL->@DeamNet_Proxy_109"
-    type: vmess
-    server: 5.196.29.123
-    port: 2082
-    udp: true
-    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-
-  - name: "PR->PR->ADL->@DeamNet_Proxy_110"
-    type: ss
-    server: 185.47.255.22
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "CA->FR->RTL->@DeamNet_Proxy_113"
-    type: vmess
-    server: 104.21.94.64
-    port: 443
-    udp: true
-    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
-      headers:
-        Host: beyonddsz.cfd
-    tls: true
-    skip-cert-verify: true
-    servername: beyonddsz.cfd
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_116"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
-
-  - name: "VE->NL->RTL->@DeamNet_Proxy_117"
-    type: ss
-    server: 45.158.171.132
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 4a2rfixophdjffa8KVA4Aa
-
-  - name: "US->US->ADL->@DeamNet_Proxy_122"
-    type: ss
-    server: 67.220.95.102
-    port: 7307
-    udp: true
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-
-  - name: "CY->CY->ADL->@DeamNet_Proxy_124"
-    type: ss
-    server: 134.255.210.49
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_125"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Zc6cLCqRjEndhKvHW3Tv92DXrpMmQBhVTi8V3g6GvoNKZAoPbUkiLvAa9cGzY2NxA7N5fqrgBWeyqxJT2erSZdUJB84b9oiJ
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_126"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2WJbjavFHQv7vgKhyHEMg7oYTLzQ98GqTTU7LmW2ZuCHy9eZLBkojcCygB1GydiWYmDiwhGHun3Xi9Dm4s9Ho9QSnCMeHaPH
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_127"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: x6EKaChK1zEYVfctyXeTfyCSPRFFHcDQ1nah5TEknRPe7BNddwijrGDX7xaYR4NRNRfCK9LtQLEgahMfAGCTqZTxCdzVKGg9
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_132"
-    type: vmess
-    server: 47.104.186.133
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_134"
-    type: vmess
-    server: 57.129.28.69
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: baradiha.com
-    tls: true
-    skip-cert-verify: true
-    servername: baradiha.com
-
-  - name: "VN->VN->ADL->@DeamNet_Proxy_135"
-    type: ss
-    server: 160.19.78.75
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
-
-  - name: "ES->ES->ADL->@DeamNet_Proxy_136"
-    type: ss
-    server: 45.154.206.192
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_137"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: aU7zH4CNgniMdKTCD5BvUEK2p94seoENgYE1rS77cybiNGBPeptxfDeV7QsvMvNxLyr94cbh3Ekztat43dBfu7yqLTxekGgF
-
-  - name: "US->US->ADL->@DeamNet_Proxy_139"
-    type: ss
-    server: 23.154.136.51
-    port: 8888
-    udp: true
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-
-  - name: "GB->GB->MTN->@DeamNet_Proxy_143"
-    type: trojan
-    server: uk-02.allhubb.info
-    port: 8443
-    udp: true
-    password: zsu4Mq3A9J
-    tls: true
-    skip-cert-verify: true
-    servername: uk-02.allhubb.info
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_145"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 9nkUgSHn4Rnesx6BPMKZJGcBDa6mXVPJKLa9e48zF8NVC16hXefJSK5VdNH6Qv7US2CgR7YXtUsUVFNj8RvMXBBfH9gVwLnw
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_146"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: wyRjDzZYC9E2aQ9iamj1vuj7ZckYVGLHn9yq92jRUUCdoz1AEKtSJRpiMPxXaiXfpXBJCp3gjsNbM9i2PbqeteCsXUWwDEAc
-
-  - name: "DE->DE->MTN->@DeamNet_Proxy_148"
-    type: vmess
-    server: ov-germany1.09vpn.com
-    port: 80
-    udp: true
-    uuid: 8617d9e2-0a57-4168-81cd-661f190e9533
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-
-  - name: "DE->DE->RTL->@DeamNet_Proxy_149"
-    type: vmess
-    server: 57.129.25.20
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: 57.129.25.20
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_151"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: YK6GT67yU6Sq5tddkkqgz28RAqh16VcftFxck4xbkXyYNQ98SCn4YG3vthQ6y1rJEfnzxmHt9UGvuin6kDnC1cRercRMTYs1
-
-  - name: "GB->->MTN->@DeamNet_Proxy_152"
-    type: ss
-    server: series-a2-me.varzesh360.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-
-  - name: "SG->SG->ADL->@DeamNet_Proxy_153"
-    type: vmess
-    server: 84.247.147.67
-    port: 54179
-    udp: true
-    uuid: d143ebbc-7825-4b43-a55e-f11cb153bd5b
-    alterId: 0
-    cipher: auto
-
-  - name: "NL->NL->ADL->@DeamNet_Proxy_155"
-    type: ss
-    server: 103.104.247.47
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "US->US->ADL->@DeamNet_Proxy_156"
-    type: trojan
-    server: 138.197.5.103
-    port: 443
-    udp: true
-    password: xxoo
-    tls: true
-    skip-cert-verify: true
-    servername: dserver.adad.ir
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_158"
-    type: ss
-    server: 45.87.175.154
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_160"
-    type: vmess
-    server: 120.26.55.225
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-
-  - name: "US->->RTL->@DeamNet_Proxy_162"
-    type: ss
-    server: 2.58.87.221
-    port: 16899
-    udp: true
-    cipher: aes-128-gcm
-    password: Yc2CtrIz8L
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_163"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: ENfXcbbP8P2ykc1ypjV22J4hdNwTWuxDWqs5GX2mnH6GMCqL5XyhNztpn7oPzK9nyToReNDbnbV3E1gsEh98GYJrBKMf6HrS
-
-  - name: "SG->SG->ADL->@DeamNet_Proxy_165"
-    type: vmess
-    server: 62.146.232.159
-    port: 14372
-    udp: true
-    uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7
-    alterId: 0
-    cipher: auto
-
-  - name: "VE->NL->RTL->@DeamNet_Proxy_168"
-    type: ss
-    server: 45.158.171.151
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-
-  - name: "DE->DE->MTN->@DeamNet_Proxy_169"
-    type: vmess
-    server: 57.129.24.124
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: aveiror.com
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_170"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: TvrwTiaD3nZnGyQkwLHexB7Kae6ZQ1naXn32651AWpTiPK23gNV9XjN42xaktTtGS5CE8r6tzjkBpr94ZXCX7cDEQi2Zk9Cp
-
-  - name: "US->US->ADL->@DeamNet_Proxy_173"
-    type: ss
-    server: 67.220.95.102
-    port: 8009
-    udp: true
-    cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_175"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_176"
-    type: ss
-    server: 51.195.119.47
-    port: 1080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: qXvO7zYU7KeaB0Md7DQLow
-
-  - name: "CA->FR->MTN->@DeamNet_Proxy_177"
-    type: vmess
-    server: 104.21.15.212
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "US->US->ADL->@DeamNet_Proxy_183"
-    type: ss
-    server: 67.220.95.102
-    port: 6379
-    udp: true
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_184"
-    type: ss
-    server: 45.87.175.157
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_185"
-    type: vmess
-    server: 47.104.186.133
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_190"
-    type: ss
-    server: 45.87.175.188
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-
-  - name: "DE->DE->RTL->@DeamNet_Proxy_196"
-    type: vmess
-    server: 57.129.24.125
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: aveiror.com
-    tls: true
-    skip-cert-verify: true
-    servername: aveiror.com
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_199"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
-
-  - name: "US->US->ADL->@DeamNet_Proxy_200"
-    type: ss
-    server: 23.154.136.51
-    port: 5499
-    udp: true
-    cipher: aes-256-gcm
-    password: lGqs95QkFHo2NV
-
-  - name: "DE->DE->RTL->@DeamNet_Proxy_201"
-    type: vmess
-    server: 57.129.25.20
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: linkvws
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "VE->NL->ADL->@DeamNet_Proxy_202"
-    type: ss
-    server: 45.158.171.60
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "FR->FR->MTN->@DeamNet_Proxy_204"
-    type: vmess
-    server: beyonddsz.cfd
-    port: 443
-    udp: true
-    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: beyonddsz.cfd
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_206"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9
-
-  - name: "US->US->ADL->@DeamNet_Proxy_208"
-    type: ss
-    server: 67.220.95.102
-    port: 8090
-    udp: true
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_209"
-    type: ss
-    server: 45.87.175.22
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_211"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2DvuGfaUJ7oM9E6mHWkZN9dAjPxtpndv4ckpPpyuexJxKLn6SpDQdBBJDFE6Gqj9MXpRHPDwYfNAqKgpBWTCWPrG4eDmnGTZ
-
-  - name: "US->US->ADL->@DeamNet_Proxy_212"
-    type: ss
-    server: 172.233.128.126
-    port: 1866
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oXGp1+ihlfKg826H
-
-  - name: "RU->RU->ADL->@DeamNet_Proxy_214"
-    type: ss
-    server: 5.189.201.250
-    port: 31348
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X
-
-  - name: "US->NL->ADL->@DeamNet_Proxy_216"
-    type: ss
-    server: 45.87.175.164
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 4a2rfixophdjffa8KVA4Aa
-
-  - name: "SG->->RTL->@DeamNet_Proxy_217"
-    type: vmess
-    server: 62.146.232.156
-    port: 33281
-    udp: true
-    uuid: 24eda0ea-acf0-4538-a001-f746a480237a
-    alterId: 0
-    cipher: auto
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_219"
-    type: ss
-    server: 45.87.175.188
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_220"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: p9UCPSVPxK92Msfi2nSV7rK62WkCJf721N3Zk2e3kh6aYdVhxcLwxq34S1Z4WA4HsHQXBrhhAjkZLSKtBaMVP6hTHF31RMov
-
-  - name: "GB->->MTN->@DeamNet_Proxy_221"
-    type: ss
-    server: series-a2-mec.samanehha.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: u17T3BvpYaaiuW2c
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_222"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2UNhq6bcq57shMzvVCgmWrnbobjgW3au5pv658oUHkJS7CRkMLpdu1WnYBzaVZDt66x6dmbJ3k9zeNKKth4mG8pstXRUnQaT
-
-  - name: "US->US->MTN->@DeamNet_Proxy_223"
-    type: vmess
-    server: 43.153.104.62
-    port: 45113
-    udp: true
-    uuid: 97cc0323-de53-4a75-d69d-c6acdac5fdc7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /97cc0323
-
-  - name: "GB->->RTL->@DeamNet_Proxy_225"
-    type: ss
-    server: series-a1.samanehha.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: mps3FwmDjLrWaOVg
-
-  - name: "US->US->ADL->@DeamNet_Proxy_226"
-    type: ss
-    server: 69.50.93.113
-    port: 9101
-    udp: true
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_227"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: tRVH6ZVjtjWCvREPvSgTx6jwmensa6of9w26NwnZ5n1V3bWeNBsq2A86K3RWGRyjA89Tqibnri4HuDtvE24KU2Sb65RUeVJz
-
-  - name: "CA->US->MTN->@DeamNet_Proxy_228"
-    type: vmess
-    server: orvps2.horsenma.net
-    port: 8443
-    udp: true
-    uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /horsen
-      headers:
-        Host: orvps2.horsenma.net
-    tls: true
-    skip-cert-verify: true
-    servername: orvps2.horsenma.net
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_229"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 2GxGsDp6h9ZN2UvHrMMKxgJqwrX5GUJ65dQZu6Ji9VE5k7kTQu5T1FSDkci9xgP3wxbe25mRxUF33BskcbHwt6t8U2hTYtV4
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_231"
-    type: ss
-    server: 45.87.175.28
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "RU->RU->ADL->@DeamNet_Proxy_233"
-    type: ss
-    server: 185.126.239.250
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_235"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: SqgmUzd7ZxGyPLjXBXrzwTU4jkz7EvbY2XcBgcp77LhKTXYvUaNRZNZi9Z1Ee9JBzYy5dnK1LZNYvtdUJe97SDHULz939xua
-
-  - name: "US->US->RTL->@DeamNet_Proxy_236"
-    type: vmess
-    server: 2.58.87.221
-    port: 14555
-    udp: true
-    uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    tls: true
-    skip-cert-verify: true
-    servername: 
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_238"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Ag9Q4j87WAWH6dygoH5Jzgv9ppjCtHCaJ6eG3hJHidyHFETkDN8g7StPxRDjuPsoH6pEdSsnuXNfXURibG9vwizcLJ5Ff5zz
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_241"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: hdUkyS4wGoL5n3yaBhm5JUAeXcwrCek2hQ7G6nh6GyYpwvU7JqRpJWLkVUQYzYXQ9MMb4YvSPvrCidN9VVgmTUvfkZBghCqr
-
-  - name: "US->US->ADL->@DeamNet_Proxy_243"
-    type: ss
-    server: 23.150.248.50
-    port: 8090
-    udp: true
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_246"
-    type: ss
-    server: 45.87.175.166
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 4a2rfixophdjffa8KVA4Aa
-
-  - name: "CN->CN->ADL->@DeamNet_Proxy_250"
-    type: vmess
-    server: 112.132.215.12
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-
-  - name: "GB->->MTN->@DeamNet_Proxy_254"
-    type: ss
-    server: 85.210.120.237
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-
-  - name: "BR->BR->MTN->@DeamNet_Proxy_256"
-    type: vmess
-    server: pq-brazil1.09vpn.com
-    port: 80
-    udp: true
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: pq-brazil1.09vpn.com
-
-  - name: "CN->CN->MTN->@DeamNet_Proxy_257"
-    type: vmess
-    server: 47.92.152.169
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_258"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: AmxHJ6RVjmwKnuVo513Wt4Lmwh3i8cdTLXmqF35NnBGL1Ko6AYF7dvNAZNWCcBifbtLJHQxNVcc3PwgtLbxKPLrMhkDRTFab
-
-  - name: "PL->PL->ADL->@DeamNet_Proxy_259"
-    type: ss
-    server: 45.144.48.63
-    port: 57456
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: d3837224ed465f00
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_262"
-    type: ss
-    server: 45.87.175.166
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "CA->FR->MTN->@DeamNet_Proxy_263"
-    type: vmess
-    server: 172.67.207.26
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_264"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_265"
-    type: ss
-    server: 45.87.175.164
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "US->->MTN->@DeamNet_Proxy_266"
-    type: vmess
-    server: hk2.lrzdx.uk
-    port: 443
-    udp: true
-    uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /register
-    tls: true
-    skip-cert-verify: true
-    servername: hk2.lrzdx.uk
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_267"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: 29mQbRJ8ps1x3EnWgAGRCBGrLSP5sxhxpoka6DdCe5cfb1YAvEFZxEXPCWjxsQbSDjFPFqM8KNnDQYfW1s1fsnCuHsGbCxGr
-
-  - name: "US->NL->MTN->@DeamNet_Proxy_270"
-    type: ss
-    server: 45.87.175.65
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-
-  - name: "LT->LT->ADL->@DeamNet_Proxy_271"
-    type: ss
-    server: 192.36.61.59
-    port: 990
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-
-  - name: "GB->->RTL->@DeamNet_Proxy_272"
-    type: ss
-    server: admin.c1.webramz.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-
-  - name: "DE->DE->ADL->@DeamNet_Proxy_274"
-    type: vmess
-    server: 57.129.25.22
-    port: 443
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: o.metuji.com
-    tls: true
-    skip-cert-verify: true
-    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-
-  - name: "CA->FR->RTL->@DeamNet_Proxy_275"
-    type: vmess
-    server: 172.67.170.13
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "GB->->ADL->@DeamNet_Proxy_276"
-    type: ss
-    server: series-a2.varzesh360.co
-    port: 443
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: mps3FwmDjLrWaOVg
-
-  - name: "VE->NL->ADL->@DeamNet_Proxy_279"
-    type: ss
-    server: 45.158.171.141
-    port: 8080
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-
-  - name: "US->US->ADL->@DeamNet_Proxy_281"
-    type: ss
-    server: 67.220.95.102
-    port: 9102
-    udp: true
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-
-  - name: "SG->SG->ADL->@DeamNet_Proxy_282"
-    type: ss
-    server: 64.176.85.73
-    port: 1866
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oXGp1+ihlfKg826H
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_284"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: YLpDMwoLZi9Dvkr7Q6PCfkwCKJt23MkhD1LHDjnKVjS1R9Z4dD9vY5FffuYCtDVcSzHJLdicZbm4Dh6p8Nsd5d88gzAWYrQY
-
-  - name: "FI->FI->RTL->@DeamNet_Proxy_285"
-    type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oHguU86Hoa41HAncW88o4kEspy8sos9tkbnK6uLvsgfMetuFKEChk2QY6eR3a67NXAmWe2kD8vbhZEyuw2Gx1hDPXXSgmimt
-
-  - name: "US->FR->ADL->@DeamNet_Proxy_289"
-    type: vmess
-    server: development.net
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "NL->NL->ADL->@DeamNet_Proxy_291"
-    type: ss
-    server: 89.23.103.21
-    port: 51584
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: oYQ8JwEldYn4KT2gfZ6eNl
-
-  - name: "CA->NL->RTL->@DeamNet_Proxy_292"
+  - name: "CA->NL->RTL->@DeamNet_Proxy_2"
     type: vmess
     server: 104.17.148.22
     port: 443
@@ -1475,33 +46,656 @@ proxies:
     skip-cert-verify: true
     servername: bitter-boat-6004.samineh-sfri-95.workers.dev
 
-  - name: "US->US->ADL->@DeamNet_Proxy_294"
-    type: ss
-    server: 173.244.56.6
-    port: 443
+  - name: "HK->HK->RTL->@DeamNet_Proxy_3"
+    type: vmess
+    server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+    port: 8080
     udp: true
-    cipher: aes-128-gcm
-    password: shadowsocks
+    uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
-  - name: "US->US->ADL->@DeamNet_Proxy_295"
-    type: trojan
-    server: 138.197.5.103
+  - name: "DE->->RTL->@DeamNet_Proxy_4"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45276
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "FR->US->RTL->@DeamNet_Proxy_5"
+    type: vmess
+    server: cf.fovi.tk
     port: 443
     udp: true
-    password: xxoo
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
     tls: true
     skip-cert-verify: true
-    servername: telewebion.com
+    servername: foxlux.fovi.tk
 
-  - name: "FI->FI->RTL->@DeamNet_Proxy_296"
+  - name: "CA->US->RTL->@DeamNet_Proxy_6"
+    type: vmess
+    server: 172.67.51.186
+    port: 443
+    udp: true
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+
+  - name: "BR->BR->RTL->@DeamNet_Proxy_7"
+    type: vmess
+    server: pq-brazil1.09vpn.com
+    port: 80
+    udp: true
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: pq-brazil1.09vpn.com
+
+  - name: "DE->->RTL->@DeamNet_Proxy_8"
+    type: vmess
+    server: ye.fxlcn.com
+    port: 45246
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "US->US->RTL->@DeamNet_Proxy_9"
+    type: vmess
+    server: orvps2.horsenma.net
+    port: 8443
+    udp: true
+    uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /horsen
+      headers:
+        Host: orvps2.horsenma.net
+    tls: true
+    skip-cert-verify: true
+    servername: orvps2.horsenma.net
+
+  - name: "JP->JP->RTL->@DeamNet_Proxy_10"
+    type: vmess
+    server: 5.253.41.147
+    port: 27750
+    udp: true
+    uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
+    alterId: 0
+    cipher: auto
+
+  - name: "CA->US->RTL->@DeamNet_Proxy_11"
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    udp: true
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "DE->->RTL->@DeamNet_Proxy_12"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45271
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->->RTL->@DeamNet_Proxy_13"
+    type: vmess
+    server: ysl.fxlcn.com
+    port: 45419
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "CN->CN->RTL->@DeamNet_Proxy_14"
+    type: vmess
+    server: 120.26.55.225
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->RTL->@DeamNet_Proxy_15"
+    type: vmess
+    server: 57.129.24.125
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "CA->CA->RTL->@DeamNet_Proxy_16"
+    type: vmess
+    server: 51.79.103.76
+    port: 80
+    udp: true
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+
+  - name: "IN->IN->RTL->@DeamNet_Proxy_17"
+    type: vmess
+    server: 94.136.185.230
+    port: 10534
+    udp: true
+    uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->->MCI->@DeamNet_Proxy_18"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45417
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "US->NL->MCI->@DeamNet_Proxy_19"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45235
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "HK->HK->RTL->@DeamNet_Proxy_20"
+    type: vmess
+    server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
+    port: 8080
+    udp: true
+    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
+
+  - name: "DE->->RTL->@DeamNet_Proxy_21"
+    type: vmess
+    server: ysl.fxlcn.com
+    port: 45229
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->RTL->@DeamNet_Proxy_22"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "BR->BR->MTN->@DeamNet_Proxy_23"
+    type: vmess
+    server: pq-brazil1.09vpn.com
+    port: 80
+    udp: true
+    uuid: 24b6bbfb-9b27-4f17-bd32-67523bf487d9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+
+  - name: "CA->->MTN->@DeamNet_Proxy_24"
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    udp: true
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxpol.fovi.tk
+    tls: true
+    skip-cert-verify: true
+    servername: cf.fovi.tk
+
+  - name: "NL->->ADL->@DeamNet_Proxy_25"
+    type: vmess
+    server: 45.12.145.111
+    port: 46290
+    udp: true
+    uuid: 1b41153e-c4d4-431b-83eb-10472f869f93
+    alterId: 0
+    cipher: auto
+
+  - name: "SG->SG->ADL->@DeamNet_Proxy_26"
+    type: vmess
+    server: 84.247.146.161
+    port: 39530
+    udp: true
+    uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c
+    alterId: 0
+    cipher: auto
+
+  - name: "CN->CN->ADL->@DeamNet_Proxy_27"
+    type: vmess
+    server: 120.210.205.59
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "CA->US->ADL->@DeamNet_Proxy_28"
+    type: vmess
+    server: codepen.io
+    port: 443
+    udp: true
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /us.kkp.me.eu.org/aa
+      headers:
+        Host: farid.1.berozha.ir
+    tls: true
+    skip-cert-verify: true
+    servername: farid.1.berozha.ir
+
+  - name: "DE->->ADL->@DeamNet_Proxy_29"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45291
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->->ADL->@DeamNet_Proxy_30"
+    type: vmess
+    server: lt.fxlcn.com
+    port: 45233
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "PL->PL->ADL->@DeamNet_Proxy_31"
+    type: vmess
+    server: 146.59.55.50
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: o.metuji.com
+    tls: true
+    skip-cert-verify: true
+    servername: o.metuji.com
+
+  - name: "CN->CN->MCI->@DeamNet_Proxy_32"
+    type: vmess
+    server: 47.116.166.178
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->ADL->@DeamNet_Proxy_33"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: aveiror.com
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "US->US->MCI->@DeamNet_Proxy_34"
+    type: vmess
+    server: 15.204.249.0
+    port: 48160
+    udp: true
+    uuid: 5b113c12-4dd4-4bb5-9c01-cff092b559e3
+    alterId: 0
+    cipher: auto
+
+  - name: "SG->SG->ADL->@DeamNet_Proxy_35"
+    type: vmess
+    server: 84.247.148.192
+    port: 44396
+    udp: true
+    uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
+    alterId: 0
+    cipher: auto
+
+  - name: "SG->SG->ADL->@DeamNet_Proxy_36"
+    type: vmess
+    server: 84.247.149.77
+    port: 47211
+    udp: true
+    uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->->MCI->@DeamNet_Proxy_37"
+    type: vmess
+    server: yal.fxlcn.com
+    port: 45272
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "US->->MCI->@DeamNet_Proxy_38"
+    type: vmess
+    server: yal.fxlcn.com
+    port: 45273
+    udp: true
+    uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+    alterId: 0
+    cipher: auto
+
+  - name: "SG->SG->MCI->@DeamNet_Proxy_39"
+    type: vmess
+    server: 154.26.129.247
+    port: 57143
+    udp: true
+    uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
+    alterId: 0
+    cipher: auto
+
+  - name: "US->US->MTN->@DeamNet_Proxy_40"
+    type: vmess
+    server: 185.189.32.179
+    port: 48737
+    udp: true
+    uuid: 3680a006-d824-4574-90f3-21226dae6903
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->MCI->@DeamNet_Proxy_41"
+    type: vmess
+    server: 57.129.28.69
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: baradiha.com
+    tls: true
+    skip-cert-verify: true
+    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "CA->CA->MTN->@DeamNet_Proxy_42"
+    type: vmess
+    server: 51.79.102.253
+    port: 80
+    udp: true
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+      headers:
+        Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "DE->DE->MTN->@DeamNet_Proxy_43"
+    type: vmess
+    server: 57.129.25.20
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "DE->DE->MTN->@DeamNet_Proxy_44"
+    type: vmess
+    server: 57.129.25.22
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "CN->CN->MTN->@DeamNet_Proxy_45"
+    type: vmess
+    server: 47.104.186.133
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->MTN->@DeamNet_Proxy_46"
+    type: vmess
+    server: 57.129.24.124
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    tls: true
+    skip-cert-verify: true
+    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "US->US->ADL->@DeamNet_Proxy_47"
+    type: vmess
+    server: 43.153.104.62
+    port: 45113
+    udp: true
+    uuid: 97cc0323-de53-4a75-d69d-c6acdac5fdc7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /97cc0323
+
+  - name: "SG->SG->MCI->@DeamNet_Proxy_48"
+    type: vmess
+    server: 62.146.233.112
+    port: 36712
+    udp: true
+    uuid: 9266df42-0830-48c2-8509-4c57b30fe29d
+    alterId: 0
+    cipher: auto
+
+  - name: "DE->DE->MCI->@DeamNet_Proxy_49"
+    type: vmess
+    server: 57.129.25.25
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: f.khilei.com
+    tls: true
+    skip-cert-verify: true
+    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+
+  - name: "CN->CN->MCI->@DeamNet_Proxy_50"
+    type: vmess
+    server: 47.92.152.169
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+
+  - name: "DE->->ADL->@DeamNet_Proxy_51"
+    type: vmess
+    server: 57.129.28.65
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: kapelleng.com
+    tls: true
+    skip-cert-verify: true
+    servername: kapelleng.com
+
+  - name: "DE->->ADL->@DeamNet_Proxy_52"
+    type: vmess
+    server: 57.129.25.22
+    port: 443
+    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: o.metuji.com
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "BR->BR->MCI->@DeamNet_Proxy_53"
+    type: vmess
+    server: 95.164.4.140
+    port: 52937
+    udp: true
+    uuid: 71820e62-7b99-4ed9-a836-1e0f814c33a1
+    alterId: 0
+    cipher: auto
+
+  - name: "CN->CN->RTL->@DeamNet_Proxy_54"
+    type: vmess
+    server: 112.132.215.12
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+
+  - name: "GB->->MTN->@DeamNet_Proxy_55"
     type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
+    server: admin.c2.webramz.co
+    port: 443
     udp: true
     cipher: chacha20-ietf-poly1305
-    password: rU9jurtJ2zHpTf5CeJ5LCAzGoSc7KCYmzuM8qnQzAXUJA8jfreYWPJtLcHC4dJXSSAQ3mLhJdbVPE1MRop37WkganscRnYv4
+    password: WstuSnlu4ieA9M0L
 
-  - name: "GB->->MTN->@DeamNet_Proxy_301"
+  - name: "GB->->MTN->@DeamNet_Proxy_56"
+    type: ss
+    server: admin.c1.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+
+  - name: "GB->->MCI->@DeamNet_Proxy_57"
+    type: ss
+    server: admin.c3.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: AlCsBGpsejHdVCME
+
+  - name: "GB->->MCI->@DeamNet_Proxy_58"
     type: ss
     server: series-a2-mec.varzesh360.co
     port: 443
@@ -1509,7 +703,55 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: u17T3BvpYaaiuW2c
 
-  - name: "US->NL->MTN->@DeamNet_Proxy_302"
+  - name: "EC->EC->MCI->@DeamNet_Proxy_59"
+    type: ss
+    server: 185.47.253.227
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "GB->->MCI->@DeamNet_Proxy_60"
+    type: ss
+    server: freakconfig13.felafel.org
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
+
+  - name: "NL->NL->RTL->@DeamNet_Proxy_61"
+    type: ss
+    server: exchange.gameaurela.click
+    port: 52952
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_62"
+    type: ss
+    server: beesyar.org
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_63"
+    type: ss
+    server: 45.87.175.192
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_64"
+    type: ss
+    server: 45.87.175.171
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "US->->RTL->@DeamNet_Proxy_65"
     type: ss
     server: 45.87.175.35
     port: 8080
@@ -1517,19 +759,143 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
 
-  - name: "IN->IN->RTL->@DeamNet_Proxy_306"
-    type: vmess
-    server: 152.67.8.205
-    port: 80
+  - name: "FI->FI->RTL->@DeamNet_Proxy_66"
+    type: ss
+    server: 166.1.157.228
+    port: 55330
     udp: true
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+    cipher: chacha20-ietf-poly1305
+    password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg
 
-  - name: "GB->->MTN->@DeamNet_Proxy_307"
+  - name: "US->NL->RTL->@DeamNet_Proxy_67"
+    type: ss
+    server: 45.87.175.171
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "VE->->RTL->@DeamNet_Proxy_68"
+    type: ss
+    server: 45.158.171.151
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "US->US->RTL->@DeamNet_Proxy_69"
+    type: ss
+    server: beta.mattenadene.org
+    port: 54075
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+
+  - name: "VE->->RTL->@DeamNet_Proxy_70"
+    type: ss
+    server: 45.158.171.151
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_71"
+    type: ss
+    server: 45.87.175.157
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "US->US->RTL->@DeamNet_Proxy_72"
+    type: ss
+    server: 94.131.21.174
+    port: 54075
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_73"
+    type: ss
+    server: 45.87.175.10
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "GB->GB->RTL->@DeamNet_Proxy_74"
+    type: ss
+    server: series-a1.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+
+  - name: "VE->NL->RTL->@DeamNet_Proxy_75"
+    type: ss
+    server: 45.158.171.151
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "VE->NL->RTL->@DeamNet_Proxy_76"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "GB->->RTL->@DeamNet_Proxy_77"
+    type: ss
+    server: series-a2.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_78"
+    type: ss
+    server: 45.87.175.171
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "GB->->RTL->@DeamNet_Proxy_79"
+    type: ss
+    server: series-a1.samanehha.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+
+  - name: "FI->FI->RTL->@DeamNet_Proxy_80"
+    type: ss
+    server: old.afoothabs.monster
+    port: 55330
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: frsa5DFzRANYPs5yMexsVUrC7d6NY8pvBRFn4g1WkF4R71Y5a6E6qYp3SxP2EaUh2yXsAKbTAm7SmL5qk5xMGoDRjH5F8BBU
+
+  - name: "GB->->RTL->@DeamNet_Proxy_81"
+    type: ss
+    server: admin.c4.webramz.co
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_82"
+    type: ss
+    server: 45.87.175.192
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "GB->->RTL->@DeamNet_Proxy_83"
     type: ss
     server: api.namasha.co
     port: 443
@@ -1537,80 +903,858 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: u17T3BvpYaaiuW2c
 
-  - name: "US->US->ADL->@DeamNet_Proxy_309"
+  - name: "GB->->RTL->@DeamNet_Proxy_84"
     type: ss
-    server: 23.154.136.148
-    port: 6679
-    udp: true
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-
-  - name: "FI->FI->ADL->@DeamNet_Proxy_310"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
+    server: series-a2.samanehha.co
+    port: 443
     udp: true
     cipher: chacha20-ietf-poly1305
-    password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM
+    password: W74XFALLLuw6m5IA
 
-  - name: "FI->FI->RTL->@DeamNet_Proxy_311"
+  - name: "US->NL->RTL->@DeamNet_Proxy_85"
     type: ss
-    server: mx2.drawnrisha.one
-    port: 55988
-    udp: true
-    cipher: chacha20-ietf-poly1305
-    password: N2BWo2zKfmA7JoWhnRQSXrN6LFmPSpLccpYVcUeo8UoMq4dvFafbZ3WiDVfCFDsLVPe5jiFagjMf45ZVg9rxRk1JRcJKRKJQ
-
-  - name: "US->NL->RTL->@DeamNet_Proxy_312"
-    type: ss
-    server: 45.87.175.181
+    server: 45.87.175.178
     port: 8080
     udp: true
     cipher: chacha20-ietf-poly1305
     password: 1RWwXhwfAB5gAEozU4G2Pg
 
-  - name: "CA->FR->MTN->@DeamNet_Proxy_319"
-    type: vmess
-    server: 172.67.170.13
-    port: 443
-    udp: true
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-    tls: true
-    skip-cert-verify: true
-    servername: glweidf.sbs
-
-  - name: "US->US->ADL->@DeamNet_Proxy_323"
+  - name: "US->NL->RTL->@DeamNet_Proxy_86"
     type: ss
-    server: 67.220.95.102
-    port: 8118
-    udp: true
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-
-  - name: "US->US->RTL->@DeamNet_Proxy_324"
-    type: trojan
-    server: 138.197.5.103
-    port: 443
-    udp: true
-    password: xxoo
-    tls: true
-    skip-cert-verify: true
-    servername: telewebion.com
-
-  - name: "CA->CA->RTL->@DeamNet_Proxy_325"
-    type: ss
-    server: 142.4.216.225
-    port: 80
+    server: 45.87.175.28
+    port: 8080
     udp: true
     cipher: chacha20-ietf-poly1305
-    password: JIhN6rBKkaEboLNXVSv5rq
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_87"
+    type: ss
+    server: 45.87.175.192
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "VE->NL->RTL->@DeamNet_Proxy_88"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: fbx1Fw7mENCd7vZMvorQZ5
+
+  - name: "VE->NL->RTL->@DeamNet_Proxy_89"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_90"
+    type: ss
+    server: 45.87.175.171
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "VE->NL->RTL->@DeamNet_Proxy_91"
+    type: ss
+    server: 45.158.171.132
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "US->NL->RTL->@DeamNet_Proxy_92"
+    type: ss
+    server: 45.87.175.192
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
+
+  - name: "PL->PL->RTL->@DeamNet_Proxy_93"
+    type: ss
+    server: 45.144.48.63
+    port: 57456
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: d3837224ed465f00
+
+  - name: "US->->ADL->@DeamNet_Proxy_94"
+    type: ss
+    server: 45.87.175.178
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+
+  - name: "PR->PR->ADL->@DeamNet_Proxy_95"
+    type: ss
+    server: 185.47.255.22
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "VE->NL->MCI->@DeamNet_Proxy_96"
+    type: ss
+    server: beesyar.org
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+
+  - name: "DE->DE->ADL->@DeamNet_Proxy_97"
+    type: ss
+    server: 81.19.141.45
+    port: 443
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 3TnQdgm2mVJQbuSCXmR5Vc
+
+  - name: "US->NL->ADL->@DeamNet_Proxy_98"
+    type: ss
+    server: 45.87.175.157
+    port: 8080
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+
+  - name: "ES->ES->MCI->@DeamNet_Proxy_99"
+    type: ss
+    server: 92.38.171.215
+    port: 31348
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
+
+  - name: "PL->PL->MCI->@DeamNet_Proxy_100"
+    type: ss
+    server: 92.118.205.228
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "BO->BO->MCI->@DeamNet_Proxy_101"
+    type: ss
+    server: 185.93.173.218
+    port: 990
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+
+  - name: "US->US->ADL->@DeamNet_Proxy_102"
+    type: ss
+    server: 172.233.128.126
+    port: 1866
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: oXGp1+ihlfKg826H
+
+  - name: "DE->DE->RTL->@DeamNet_Proxy_103"
+    type: ss
+    server: portal.ninemakeda.cfd
+    port: 43669
+    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
+
+  - name: "CA->IT->RTL->@DeamNet_Proxy_470"
+    type: trojan
+    server: log.bpminecraft.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "US->US->RTL->@DeamNet_Proxy_471"
+    type: trojan
+    server: 89.187.181.179
+    port: 43118
+    udp: true
+    password: ypDt8RkT7J
+    tls: true
+    skip-cert-verify: true
+    servername: 89.187.181.179
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_472"
+    type: trojan
+    server: 104.18.42.163
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_473"
+    type: trojan
+    server: www.visa.com.sg
+    port: 8443
+    udp: true
+    password: trojan
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: pangpi.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: pangpi.pages.dev
+
+  - name: "US->FR->RTL->@DeamNet_Proxy_474"
+    type: trojan
+    server: www.iplocation.net
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_475"
+    type: trojan
+    server: whatismyipaddress.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_476"
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    udp: true
+    password: 8r<[9'l6hAO#8ZQi
+    network: ws
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        Host: koma-yt.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: Koma-YT.PAGeS.Dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_477"
+    type: trojan
+    server: www.gco.gov.qa
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_478"
+    type: trojan
+    server: dcf741e8.epeius-2gy.pages.dev
+    port: 443
+    udp: true
+    password: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: dcf741e8.epeius-2gy.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: dcf741e8.epeius-2gy.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_479"
+    type: trojan
+    server: www.iakeys.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "SE->SE->RTL->@DeamNet_Proxy_480"
+    type: trojan
+    server: 109.120.132.142
+    port: 2025
+    udp: true
+    password: vpn
+    network: ws
+    ws-opts:
+      path: /
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_481"
+    type: trojan
+    server: www.visa.com.hk
+    port: 8443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->DE->RTL->@DeamNet_Proxy_482"
+    type: trojan
+    server: www.zsu.gov.ua
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_483"
+    type: trojan
+    server: fbi.gov
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_484"
+    type: trojan
+    server: www.gov.se
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_485"
+    type: trojan
+    server: www.gov.ua
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "KH->FR->RTL->@DeamNet_Proxy_486"
+    type: trojan
+    server: 92.243.75.49
+    port: 2087
+    udp: true
+    password: wb6368
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hsdgbuys.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: hsdgbuys.pages.dev
+
+  - name: "CA->SE->RTL->@DeamNet_Proxy_487"
+    type: trojan
+    server: iplocation.io
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CY->FR->RTL->@DeamNet_Proxy_488"
+    type: trojan
+    server: www.csgo.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_489"
+    type: trojan
+    server: 104.25.165.81
+    port: 8443
+    udp: true
+    password: 123456
+    network: ws
+    ws-opts:
+      path: /Az1.vpn.33.TOP/?ed=2560
+      headers:
+        Host: top-azx.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: top-azx.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_490"
+    type: trojan
+    server: www.ipaddress.my
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_491"
+    type: trojan
+    server: 104.25.165.83
+    port: 8443
+    udp: true
+    password: 123456
+    network: ws
+    ws-opts:
+      path: /Az1.vpn.33.TOP/?ed=2560
+      headers:
+        Host: top-azx.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: top-azx.pages.dev
+
+  - name: "GB->FR->RTL->@DeamNet_Proxy_492"
+    type: trojan
+    server: koma-yt.pages.dev
+    port: 8443
+    udp: true
+    password: 8r<[9'l6hAO#8ZQi
+    network: ws
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        Host: koma-yt.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: Koma-YT.PAGeS.Dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_493"
+    type: trojan
+    server: time.is
+    port: 2087
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_494"
+    type: trojan
+    server: 172.66.46.254
+    port: 443
+    udp: true
+    password: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: dcf741e8.epeius-2gy.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: dcf741e8.epeius-2gy.pages.dev
+
+  - name: "US->FR->RTL->@DeamNet_Proxy_495"
+    type: trojan
+    server: ip.sb
+    port: 8443
+    udp: true
+    password: trojan
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fofang.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: fofang.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_496"
+    type: trojan
+    server: www.udemy.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_497"
+    type: trojan
+    server: singapore.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_498"
+    type: trojan
+    server: 104.25.165.83
+    port: 8443
+    udp: true
+    password: 123456
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: top-azx.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: top-azx.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_499"
+    type: trojan
+    server: 104.17.148.22
+    port: 443
+    udp: true
+    password: redfree8
+    network: ws
+    ws-opts:
+      path: /trTelegram@@M4Dvpn/?ed=2560
+      headers:
+        Host: redfree8-p1.pooriashop.ir
+    tls: true
+    skip-cert-verify: true
+    servername: redfree8-p1.pooriashop.ir
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_500"
+    type: trojan
+    server: www.wto.org
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_501"
+    type: trojan
+    server: 104.21.112.1
+    port: 443
+    udp: true
+    password: f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yellow-cloud-d53f.vavovi6084.workers.dev
+    tls: true
+    skip-cert-verify: true
+    servername: yellow-cloud-d53f.vavovi6084.workers.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_502"
+    type: trojan
+    server: www.ipget.net
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_503"
+    type: trojan
+    server: 104.18.27.94
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_504"
+    type: trojan
+    server: www.pcmag.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "US->SE->RTL->@DeamNet_Proxy_505"
+    type: trojan
+    server: www.udacity.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_506"
+    type: trojan
+    server: japan.com
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_507"
+    type: trojan
+    server: www.visa.com.tw
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->ADL->@DeamNet_Proxy_508"
+    type: trojan
+    server: 104.17.148.22
+    port: 80
+    udp: true
+    password: redfree8
+    network: ws
+    ws-opts:
+      path: /trLwW5jwrnymnOdqki?ed=2560
+      headers:
+        Host: redfree8-p1.pooriashop.ir
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "KZ->KZ->MCI->@DeamNet_Proxy_509"
+    type: trojan
+    server: 45.82.14.144
+    port: 2025
+    udp: true
+    password: vpn
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dns.google.com
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "HK->HK->MTN->@DeamNet_Proxy_510"
+    type: trojan
+    server: 38.207.133.204
+    port: 10002
+    udp: true
+    password: trojan
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: qingming-b08.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: qingming-b08.pages.dev
+
+  - name: "CA->FR->MTN->@DeamNet_Proxy_511"
+    type: trojan
+    server: 104.21.18.192
+    port: 443
+    udp: true
+    password: rXzh;?nW1GGKB(K8
+    network: ws
+    ws-opts:
+      path: /tr4BCdusB84159lWnu
+      headers:
+        Host: saikoxpubgm.zhkingkurd13.workers.dev
+    tls: true
+    skip-cert-verify: true
+    servername: sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV
+
+  - name: "SE->SE->MTN->@DeamNet_Proxy_512"
+    type: trojan
+    server: 109.120.132.142
+    port: 2025
+    udp: true
+    password: vpn
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vkvd127.mycdn.me
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "US->->MTN->@DeamNet_Proxy_513"
+    type: trojan
+    server: 38.99.82.225
+    port: 443
+    udp: true
+    password: 71409d3e488548e8bb076d229778f008
+    tls: true
+    skip-cert-verify: true
+    servername: 
+
+  - name: "US->FR->RTL->@DeamNet_Proxy_514"
+    type: trojan
+    server: edtunnel-dgp.pages.dev
+    port: 443
+    udp: true
+    password: vip
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: heihu880.pages.dev
+
+  - name: "CA->FR->RTL->@DeamNet_Proxy_515"
+    type: trojan
+    server: 198.41.208.69
+    port: 8443
+    udp: true
+    password: 123456
+    network: ws
+    ws-opts:
+      path: /Az1.vpn.33.TOP/?ed=2560
+      headers:
+        Host: top-azx.pages.dev
+    tls: true
+    skip-cert-verify: true
+    servername: top-azx.pages.dev
+
+  - name: "SE->SE->RTL->@DeamNet_Proxy_516"
+    type: trojan
+    server: 109.120.132.80
+    port: 2025
+    udp: true
+    password: vpn
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vkvd127.mycdn.me
+    tls: true
+    skip-cert-verify: true
+    servername: 
 
 proxy-groups:
   - name: ♻️ auto
@@ -1618,168 +1762,157 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "DE->DE->RTL->@DeamNet_Proxy_0"
-      - "VN->VN->RTL->@DeamNet_Proxy_3"
-      - "RU->RU->MTN->@DeamNet_Proxy_4"
-      - "FI->FI->ADL->@DeamNet_Proxy_5"
-      - "DE->DE->ADL->@DeamNet_Proxy_6"
-      - "FI->FI->RTL->@DeamNet_Proxy_11"
-      - "GB->->RTL->@DeamNet_Proxy_12"
-      - "HK->HK->ADL->@DeamNet_Proxy_13"
-      - "FR->FR->RTL->@DeamNet_Proxy_16"
-      - "GB->->MTN->@DeamNet_Proxy_18"
-      - "CA->US->ADL->@DeamNet_Proxy_21"
-      - "VE->NL->RTL->@DeamNet_Proxy_27"
-      - "CA->DE->MTN->@DeamNet_Proxy_28"
-      - "BR->BR->ADL->@DeamNet_Proxy_31"
+      - "DE->->RTL->@DeamNet_Proxy_0"
+      - "DE->DE->RTL->@DeamNet_Proxy_1"
+      - "CA->NL->RTL->@DeamNet_Proxy_2"
+      - "HK->HK->RTL->@DeamNet_Proxy_3"
+      - "DE->->RTL->@DeamNet_Proxy_4"
+      - "FR->US->RTL->@DeamNet_Proxy_5"
+      - "CA->US->RTL->@DeamNet_Proxy_6"
+      - "BR->BR->RTL->@DeamNet_Proxy_7"
+      - "DE->->RTL->@DeamNet_Proxy_8"
+      - "US->US->RTL->@DeamNet_Proxy_9"
+      - "JP->JP->RTL->@DeamNet_Proxy_10"
+      - "CA->US->RTL->@DeamNet_Proxy_11"
+      - "DE->->RTL->@DeamNet_Proxy_12"
+      - "DE->->RTL->@DeamNet_Proxy_13"
+      - "CN->CN->RTL->@DeamNet_Proxy_14"
+      - "DE->DE->RTL->@DeamNet_Proxy_15"
+      - "CA->CA->RTL->@DeamNet_Proxy_16"
+      - "IN->IN->RTL->@DeamNet_Proxy_17"
+      - "DE->->MCI->@DeamNet_Proxy_18"
+      - "US->NL->MCI->@DeamNet_Proxy_19"
+      - "HK->HK->RTL->@DeamNet_Proxy_20"
+      - "DE->->RTL->@DeamNet_Proxy_21"
+      - "DE->DE->RTL->@DeamNet_Proxy_22"
+      - "BR->BR->MTN->@DeamNet_Proxy_23"
+      - "CA->->MTN->@DeamNet_Proxy_24"
+      - "NL->->ADL->@DeamNet_Proxy_25"
+      - "SG->SG->ADL->@DeamNet_Proxy_26"
+      - "CN->CN->ADL->@DeamNet_Proxy_27"
+      - "CA->US->ADL->@DeamNet_Proxy_28"
+      - "DE->->ADL->@DeamNet_Proxy_29"
+      - "DE->->ADL->@DeamNet_Proxy_30"
+      - "PL->PL->ADL->@DeamNet_Proxy_31"
+      - "CN->CN->MCI->@DeamNet_Proxy_32"
       - "DE->DE->ADL->@DeamNet_Proxy_33"
-      - "US->US->ADL->@DeamNet_Proxy_35"
-      - "US->US->ADL->@DeamNet_Proxy_36"
-      - "FI->FI->RTL->@DeamNet_Proxy_37"
-      - "FI->FI->RTL->@DeamNet_Proxy_40"
-      - "GB->->ADL->@DeamNet_Proxy_45"
-      - "GB->->ADL->@DeamNet_Proxy_50"
-      - "US->NL->MTN->@DeamNet_Proxy_54"
-      - "CA->FR->RTL->@DeamNet_Proxy_55"
-      - "FI->FI->RTL->@DeamNet_Proxy_56"
-      - "ID->ID->ADL->@DeamNet_Proxy_57"
-      - "NL->NL->ADL->@DeamNet_Proxy_58"
-      - "CA->->RTL->@DeamNet_Proxy_60"
-      - "GB->GB->RTL->@DeamNet_Proxy_62"
-      - "FI->FI->ADL->@DeamNet_Proxy_64"
-      - "SG->SG->ADL->@DeamNet_Proxy_67"
-      - "FI->FI->RTL->@DeamNet_Proxy_68"
-      - "CA->FR->RTL->@DeamNet_Proxy_73"
-      - "SE->SE->RTL->@DeamNet_Proxy_76"
-      - "DE->DE->RTL->@DeamNet_Proxy_77"
-      - "CO->CO->ADL->@DeamNet_Proxy_78"
-      - "CN->CN->MTN->@DeamNet_Proxy_80"
-      - "FI->FI->RTL->@DeamNet_Proxy_83"
-      - "US->NL->MTN->@DeamNet_Proxy_87"
-      - "FI->FI->RTL->@DeamNet_Proxy_88"
-      - "US->NL->RTL->@DeamNet_Proxy_89"
-      - "US->NL->MTN->@DeamNet_Proxy_92"
-      - "FI->FI->ADL->@DeamNet_Proxy_94"
-      - "CN->CN->MTN->@DeamNet_Proxy_99"
-      - "PL->PL->ADL->@DeamNet_Proxy_102"
-      - "US->US->RTL->@DeamNet_Proxy_104"
-      - "DE->DE->ADL->@DeamNet_Proxy_107"
-      - "VE->NL->RTL->@DeamNet_Proxy_108"
-      - "FR->FR->ADL->@DeamNet_Proxy_109"
-      - "PR->PR->ADL->@DeamNet_Proxy_110"
-      - "CA->FR->RTL->@DeamNet_Proxy_113"
-      - "FI->FI->RTL->@DeamNet_Proxy_116"
-      - "VE->NL->RTL->@DeamNet_Proxy_117"
-      - "US->US->ADL->@DeamNet_Proxy_122"
-      - "CY->CY->ADL->@DeamNet_Proxy_124"
-      - "FI->FI->ADL->@DeamNet_Proxy_125"
-      - "FI->FI->RTL->@DeamNet_Proxy_126"
-      - "FI->FI->ADL->@DeamNet_Proxy_127"
-      - "CN->CN->MTN->@DeamNet_Proxy_132"
-      - "DE->DE->ADL->@DeamNet_Proxy_134"
-      - "VN->VN->ADL->@DeamNet_Proxy_135"
-      - "ES->ES->ADL->@DeamNet_Proxy_136"
-      - "FI->FI->RTL->@DeamNet_Proxy_137"
-      - "US->US->ADL->@DeamNet_Proxy_139"
-      - "GB->GB->MTN->@DeamNet_Proxy_143"
-      - "FI->FI->RTL->@DeamNet_Proxy_145"
-      - "FI->FI->RTL->@DeamNet_Proxy_146"
-      - "DE->DE->MTN->@DeamNet_Proxy_148"
-      - "DE->DE->RTL->@DeamNet_Proxy_149"
-      - "FI->FI->RTL->@DeamNet_Proxy_151"
-      - "GB->->MTN->@DeamNet_Proxy_152"
-      - "SG->SG->ADL->@DeamNet_Proxy_153"
-      - "NL->NL->ADL->@DeamNet_Proxy_155"
-      - "US->US->ADL->@DeamNet_Proxy_156"
-      - "US->NL->RTL->@DeamNet_Proxy_158"
-      - "CN->CN->MTN->@DeamNet_Proxy_160"
-      - "US->->RTL->@DeamNet_Proxy_162"
-      - "FI->FI->ADL->@DeamNet_Proxy_163"
-      - "SG->SG->ADL->@DeamNet_Proxy_165"
-      - "VE->NL->RTL->@DeamNet_Proxy_168"
-      - "DE->DE->MTN->@DeamNet_Proxy_169"
-      - "FI->FI->ADL->@DeamNet_Proxy_170"
-      - "US->US->ADL->@DeamNet_Proxy_173"
-      - "FI->FI->ADL->@DeamNet_Proxy_175"
-      - "DE->DE->ADL->@DeamNet_Proxy_176"
-      - "CA->FR->MTN->@DeamNet_Proxy_177"
-      - "US->US->ADL->@DeamNet_Proxy_183"
-      - "US->NL->MTN->@DeamNet_Proxy_184"
-      - "CN->CN->MTN->@DeamNet_Proxy_185"
-      - "US->NL->MTN->@DeamNet_Proxy_190"
-      - "DE->DE->RTL->@DeamNet_Proxy_196"
-      - "FI->FI->RTL->@DeamNet_Proxy_199"
-      - "US->US->ADL->@DeamNet_Proxy_200"
-      - "DE->DE->RTL->@DeamNet_Proxy_201"
-      - "VE->NL->ADL->@DeamNet_Proxy_202"
-      - "FR->FR->MTN->@DeamNet_Proxy_204"
-      - "FI->FI->RTL->@DeamNet_Proxy_206"
-      - "US->US->ADL->@DeamNet_Proxy_208"
-      - "US->NL->MTN->@DeamNet_Proxy_209"
-      - "FI->FI->RTL->@DeamNet_Proxy_211"
-      - "US->US->ADL->@DeamNet_Proxy_212"
-      - "RU->RU->ADL->@DeamNet_Proxy_214"
-      - "US->NL->ADL->@DeamNet_Proxy_216"
-      - "SG->->RTL->@DeamNet_Proxy_217"
-      - "US->NL->MTN->@DeamNet_Proxy_219"
-      - "FI->FI->RTL->@DeamNet_Proxy_220"
-      - "GB->->MTN->@DeamNet_Proxy_221"
-      - "FI->FI->RTL->@DeamNet_Proxy_222"
-      - "US->US->MTN->@DeamNet_Proxy_223"
-      - "GB->->RTL->@DeamNet_Proxy_225"
-      - "US->US->ADL->@DeamNet_Proxy_226"
-      - "FI->FI->ADL->@DeamNet_Proxy_227"
-      - "CA->US->MTN->@DeamNet_Proxy_228"
-      - "FI->FI->RTL->@DeamNet_Proxy_229"
-      - "US->NL->MTN->@DeamNet_Proxy_231"
-      - "RU->RU->ADL->@DeamNet_Proxy_233"
-      - "FI->FI->RTL->@DeamNet_Proxy_235"
-      - "US->US->RTL->@DeamNet_Proxy_236"
-      - "FI->FI->RTL->@DeamNet_Proxy_238"
-      - "FI->FI->RTL->@DeamNet_Proxy_241"
-      - "US->US->ADL->@DeamNet_Proxy_243"
-      - "US->NL->RTL->@DeamNet_Proxy_246"
-      - "CN->CN->ADL->@DeamNet_Proxy_250"
-      - "GB->->MTN->@DeamNet_Proxy_254"
-      - "BR->BR->MTN->@DeamNet_Proxy_256"
-      - "CN->CN->MTN->@DeamNet_Proxy_257"
-      - "FI->FI->RTL->@DeamNet_Proxy_258"
-      - "PL->PL->ADL->@DeamNet_Proxy_259"
-      - "US->NL->RTL->@DeamNet_Proxy_262"
-      - "CA->FR->MTN->@DeamNet_Proxy_263"
-      - "FI->FI->ADL->@DeamNet_Proxy_264"
-      - "US->NL->RTL->@DeamNet_Proxy_265"
-      - "US->->MTN->@DeamNet_Proxy_266"
-      - "FI->FI->RTL->@DeamNet_Proxy_267"
-      - "US->NL->MTN->@DeamNet_Proxy_270"
-      - "LT->LT->ADL->@DeamNet_Proxy_271"
-      - "GB->->RTL->@DeamNet_Proxy_272"
-      - "DE->DE->ADL->@DeamNet_Proxy_274"
-      - "CA->FR->RTL->@DeamNet_Proxy_275"
-      - "GB->->ADL->@DeamNet_Proxy_276"
-      - "VE->NL->ADL->@DeamNet_Proxy_279"
-      - "US->US->ADL->@DeamNet_Proxy_281"
-      - "SG->SG->ADL->@DeamNet_Proxy_282"
-      - "FI->FI->RTL->@DeamNet_Proxy_284"
-      - "FI->FI->RTL->@DeamNet_Proxy_285"
-      - "US->FR->ADL->@DeamNet_Proxy_289"
-      - "NL->NL->ADL->@DeamNet_Proxy_291"
-      - "CA->NL->RTL->@DeamNet_Proxy_292"
-      - "US->US->ADL->@DeamNet_Proxy_294"
-      - "US->US->ADL->@DeamNet_Proxy_295"
-      - "FI->FI->RTL->@DeamNet_Proxy_296"
-      - "GB->->MTN->@DeamNet_Proxy_301"
-      - "US->NL->MTN->@DeamNet_Proxy_302"
-      - "IN->IN->RTL->@DeamNet_Proxy_306"
-      - "GB->->MTN->@DeamNet_Proxy_307"
-      - "US->US->ADL->@DeamNet_Proxy_309"
-      - "FI->FI->ADL->@DeamNet_Proxy_310"
-      - "FI->FI->RTL->@DeamNet_Proxy_311"
-      - "US->NL->RTL->@DeamNet_Proxy_312"
-      - "CA->FR->MTN->@DeamNet_Proxy_319"
-      - "US->US->ADL->@DeamNet_Proxy_323"
-      - "US->US->RTL->@DeamNet_Proxy_324"
-      - "CA->CA->RTL->@DeamNet_Proxy_325"
+      - "US->US->MCI->@DeamNet_Proxy_34"
+      - "SG->SG->ADL->@DeamNet_Proxy_35"
+      - "SG->SG->ADL->@DeamNet_Proxy_36"
+      - "DE->->MCI->@DeamNet_Proxy_37"
+      - "US->->MCI->@DeamNet_Proxy_38"
+      - "SG->SG->MCI->@DeamNet_Proxy_39"
+      - "US->US->MTN->@DeamNet_Proxy_40"
+      - "DE->DE->MCI->@DeamNet_Proxy_41"
+      - "CA->CA->MTN->@DeamNet_Proxy_42"
+      - "DE->DE->MTN->@DeamNet_Proxy_43"
+      - "DE->DE->MTN->@DeamNet_Proxy_44"
+      - "CN->CN->MTN->@DeamNet_Proxy_45"
+      - "DE->DE->MTN->@DeamNet_Proxy_46"
+      - "US->US->ADL->@DeamNet_Proxy_47"
+      - "SG->SG->MCI->@DeamNet_Proxy_48"
+      - "DE->DE->MCI->@DeamNet_Proxy_49"
+      - "CN->CN->MCI->@DeamNet_Proxy_50"
+      - "DE->->ADL->@DeamNet_Proxy_51"
+      - "DE->->ADL->@DeamNet_Proxy_52"
+      - "BR->BR->MCI->@DeamNet_Proxy_53"
+      - "CN->CN->RTL->@DeamNet_Proxy_54"
+      - "GB->->MTN->@DeamNet_Proxy_55"
+      - "GB->->MTN->@DeamNet_Proxy_56"
+      - "GB->->MCI->@DeamNet_Proxy_57"
+      - "GB->->MCI->@DeamNet_Proxy_58"
+      - "EC->EC->MCI->@DeamNet_Proxy_59"
+      - "GB->->MCI->@DeamNet_Proxy_60"
+      - "NL->NL->RTL->@DeamNet_Proxy_61"
+      - "US->NL->RTL->@DeamNet_Proxy_62"
+      - "US->NL->RTL->@DeamNet_Proxy_63"
+      - "US->NL->RTL->@DeamNet_Proxy_64"
+      - "US->->RTL->@DeamNet_Proxy_65"
+      - "FI->FI->RTL->@DeamNet_Proxy_66"
+      - "US->NL->RTL->@DeamNet_Proxy_67"
+      - "VE->->RTL->@DeamNet_Proxy_68"
+      - "US->US->RTL->@DeamNet_Proxy_69"
+      - "VE->->RTL->@DeamNet_Proxy_70"
+      - "US->NL->RTL->@DeamNet_Proxy_71"
+      - "US->US->RTL->@DeamNet_Proxy_72"
+      - "US->NL->RTL->@DeamNet_Proxy_73"
+      - "GB->GB->RTL->@DeamNet_Proxy_74"
+      - "VE->NL->RTL->@DeamNet_Proxy_75"
+      - "VE->NL->RTL->@DeamNet_Proxy_76"
+      - "GB->->RTL->@DeamNet_Proxy_77"
+      - "US->NL->RTL->@DeamNet_Proxy_78"
+      - "GB->->RTL->@DeamNet_Proxy_79"
+      - "FI->FI->RTL->@DeamNet_Proxy_80"
+      - "GB->->RTL->@DeamNet_Proxy_81"
+      - "US->NL->RTL->@DeamNet_Proxy_82"
+      - "GB->->RTL->@DeamNet_Proxy_83"
+      - "GB->->RTL->@DeamNet_Proxy_84"
+      - "US->NL->RTL->@DeamNet_Proxy_85"
+      - "US->NL->RTL->@DeamNet_Proxy_86"
+      - "US->NL->RTL->@DeamNet_Proxy_87"
+      - "VE->NL->RTL->@DeamNet_Proxy_88"
+      - "VE->NL->RTL->@DeamNet_Proxy_89"
+      - "US->NL->RTL->@DeamNet_Proxy_90"
+      - "VE->NL->RTL->@DeamNet_Proxy_91"
+      - "US->NL->RTL->@DeamNet_Proxy_92"
+      - "PL->PL->RTL->@DeamNet_Proxy_93"
+      - "US->->ADL->@DeamNet_Proxy_94"
+      - "PR->PR->ADL->@DeamNet_Proxy_95"
+      - "VE->NL->MCI->@DeamNet_Proxy_96"
+      - "DE->DE->ADL->@DeamNet_Proxy_97"
+      - "US->NL->ADL->@DeamNet_Proxy_98"
+      - "ES->ES->MCI->@DeamNet_Proxy_99"
+      - "PL->PL->MCI->@DeamNet_Proxy_100"
+      - "BO->BO->MCI->@DeamNet_Proxy_101"
+      - "US->US->ADL->@DeamNet_Proxy_102"
+      - "DE->DE->RTL->@DeamNet_Proxy_103"
+      - "CA->IT->RTL->@DeamNet_Proxy_470"
+      - "US->US->RTL->@DeamNet_Proxy_471"
+      - "CA->FR->RTL->@DeamNet_Proxy_472"
+      - "CA->FR->RTL->@DeamNet_Proxy_473"
+      - "US->FR->RTL->@DeamNet_Proxy_474"
+      - "CA->FR->RTL->@DeamNet_Proxy_475"
+      - "CA->FR->RTL->@DeamNet_Proxy_476"
+      - "CA->FR->RTL->@DeamNet_Proxy_477"
+      - "CA->FR->RTL->@DeamNet_Proxy_478"
+      - "CA->FR->RTL->@DeamNet_Proxy_479"
+      - "SE->SE->RTL->@DeamNet_Proxy_480"
+      - "CA->FR->RTL->@DeamNet_Proxy_481"
+      - "CA->DE->RTL->@DeamNet_Proxy_482"
+      - "CA->FR->RTL->@DeamNet_Proxy_483"
+      - "CA->FR->RTL->@DeamNet_Proxy_484"
+      - "CA->FR->RTL->@DeamNet_Proxy_485"
+      - "KH->FR->RTL->@DeamNet_Proxy_486"
+      - "CA->SE->RTL->@DeamNet_Proxy_487"
+      - "CY->FR->RTL->@DeamNet_Proxy_488"
+      - "CA->FR->RTL->@DeamNet_Proxy_489"
+      - "CA->FR->RTL->@DeamNet_Proxy_490"
+      - "CA->FR->RTL->@DeamNet_Proxy_491"
+      - "GB->FR->RTL->@DeamNet_Proxy_492"
+      - "CA->FR->RTL->@DeamNet_Proxy_493"
+      - "CA->FR->RTL->@DeamNet_Proxy_494"
+      - "US->FR->RTL->@DeamNet_Proxy_495"
+      - "CA->FR->RTL->@DeamNet_Proxy_496"
+      - "CA->FR->RTL->@DeamNet_Proxy_497"
+      - "CA->FR->RTL->@DeamNet_Proxy_498"
+      - "CA->FR->RTL->@DeamNet_Proxy_499"
+      - "CA->FR->RTL->@DeamNet_Proxy_500"
+      - "CA->FR->RTL->@DeamNet_Proxy_501"
+      - "CA->FR->RTL->@DeamNet_Proxy_502"
+      - "CA->FR->RTL->@DeamNet_Proxy_503"
+      - "CA->FR->RTL->@DeamNet_Proxy_504"
+      - "US->SE->RTL->@DeamNet_Proxy_505"
+      - "CA->FR->RTL->@DeamNet_Proxy_506"
+      - "CA->FR->RTL->@DeamNet_Proxy_507"
+      - "CA->FR->ADL->@DeamNet_Proxy_508"
+      - "KZ->KZ->MCI->@DeamNet_Proxy_509"
+      - "HK->HK->MTN->@DeamNet_Proxy_510"
+      - "CA->FR->MTN->@DeamNet_Proxy_511"
+      - "SE->SE->MTN->@DeamNet_Proxy_512"
+      - "US->->MTN->@DeamNet_Proxy_513"
+      - "US->FR->RTL->@DeamNet_Proxy_514"
+      - "CA->FR->RTL->@DeamNet_Proxy_515"
+      - "SE->SE->RTL->@DeamNet_Proxy_516"
 rules:
  - MATCH,♻️ auto
 

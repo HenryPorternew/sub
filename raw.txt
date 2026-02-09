@@ -248,3 +248,4 @@ vmess://eyAidiIgOiAiMiIsICJwcyIgOiAi8J+HqPCfh6ZDYW5hZGEgLT4g8J+HqPCfh6ZDYW5hZGEg
 vless://6abc2840-25fd-4dd7-b1aa-0892fe98f2d9@nodejs.org:80?encryption=none&security=none&type=ws&host=MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.&path=%2F%3Fed#%F0%9F%87%A8%F0%9F%87%A6Canada+-%3E+%F0%9F%87%A8%F0%9F%87%A6Canada+%E2%9A%A1@DeamNet_Proxy
 trojan://humanity@188.114.98.0:443?encryption=none&security=tls&sni=www.multiplydose.com&fp=chrome&insecure=1&type=ws&host=www.multiplydose.com&path=%2Fassignment#%F0%9F%87%A8%F0%9F%87%A6Canada+-%3E+%F0%9F%87%B3%F0%9F%87%B1The+Netherlands+%E2%9A%A1@DeamNet_Proxy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#%F0%9F%87%BB%F0%9F%87%B3Vietnam+-%3E+%F0%9F%87%BB%F0%9F%87%B3Vietnam+%E2%9A%A1@DeamNet_Proxy
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMGU0MDE0YmIyMmY3MzI5@57.129.95.78:11201#%F0%9F%87%A9%F0%9F%87%AAGermany+-%3E+%F0%9F%87%A9%F0%9F%87%AAGermany+%E2%9A%A1@DeamNet_Proxy

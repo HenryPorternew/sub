@@ -453,3 +453,4 @@ vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?encryption=none&s
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZWM0ZTZmOWU5NTRhZWFk@119.159.245.24:29700#%F0%9F%87%B5%F0%9F%87%B0Pakistan+-%3E+%F0%9F%87%B5%F0%9F%87%B0Pakistan+%E2%9A%A1@DeamNet_Proxy
 trojan://humanity@185.18.250.252:443?encryption=none&security=tls&sni=www.creationlong.org&alpn=h2%2Chttp%2F1.1&fp=chrome&insecure=1&type=ws&host=www.creationlong.org&path=%2Fassignment#%F0%9F%87%AA%F0%9F%87%B8Spain+-%3E+%F0%9F%87%B5%F0%9F%87%B1Poland+%E2%9A%A1@DeamNet_Proxy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NzdjM2IwNjljMzM1ZmZj@163.171.181.49:42936#%F0%9F%87%B0%F0%9F%87%BCKuwait+-%3E+%F0%9F%87%B0%F0%9F%87%BCKuwait+%E2%9A%A1@DeamNet_Proxy
+trojan://humanity@172.64.152.23:443?encryption=none&security=tls&sni=www.creationlong.org&alpn=h2%2Chttp%2F1.1&fp=chrome&insecure=1&type=ws&path=%2Fassignment#%F0%9F%87%A8%F0%9F%87%A6Canada+-%3E+%F0%9F%87%B5%F0%9F%87%B1Poland+%E2%9A%A1@DeamNet_Proxy

@@ -93,3 +93,8 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@openai.com:2095?encryption=none&sec
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?encryption=none&security=none&type=ws&host=vms.lifetime37.workers.dev&path=%2F#AU-%3EDE+(@DeamNet_Proxy)
 vless://e258977b-e413-4718-a3af-02d75492c349@172.64.47.168:2096?encryption=none&security=tls&sni=jp.aniua.qzz.io&fp=chrome&insecure=1&type=ws&host=jp.aniua.qzz.io&path=%2F%2F#CA-%3E+(@DeamNet_Proxy)
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@66.235.200.30:8880?encryption=none&security=none&type=ws&host=vms.lifetime47.workers.dev&path=%2F#US-%3EDE+(@DeamNet_Proxy)
+trojan://humanity@104.18.32.47:443?encryption=none&security=tls&sni=www.gossipglove.com&fp=chrome&insecure=1&type=ws&host=www.gossipglove.com&path=%2Fassignment#CA-%3E+(@DeamNet_Proxy)
+trojan://humanity@104.18.22.63:443?encryption=none&security=tls&sni=www.ignitelimit.com&alpn=http%2F1.1&fp=chrome&insecure=1&type=ws&path=%2Fassignment#CA-%3E+(@DeamNet_Proxy)
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?encryption=none&security=none&type=ws&host=tt.andishehparenting.com&path=%2F#CA-%3EDE+(@DeamNet_Proxy)
+vless://a22bff60-a40a-4250-bde2-4c660e363b47@198.41.208.203:80?encryption=none&security=none&type=ws&host=index.harmony715.workers.dev&path=%2Fmpmva3e8rtr6v7qq#CA-%3EDE+(@DeamNet_Proxy)
+trojan://humanity@185.18.250.252:443?encryption=none&security=tls&sni=www.multiplydose.com&fp=chrome&insecure=1&type=ws&path=%2Fassignment#ES-%3E+(@DeamNet_Proxy)

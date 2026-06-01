@@ -1,3 +1,11 @@
+vless://7402e534-54dc-34cc-ac5b-c85ac6e236fd@s220.okgfwbackxyz.xyz:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=4002s220.okgfwbackxyz.xyz&fp=random&insecure=1&type=raw&headertype=none#NL-%3E+(@DeamNet_Proxy)
+trojan://humanity@v3.dabache.top:443?encryption=none&security=tls&sni=www.multiplydose.com&insecure=1&type=ws&host=www.multiplydose.com&path=%2Fassignment%23+@shadowproxy66#-%3E+(@DeamNet_Proxy)
+trojan://humanity@185.18.250.252:443?encryption=none&security=tls&sni=www.gossipglove.com&fp=chrome&insecure=1&type=ws&path=%2Fassignment#ES-%3E+(@DeamNet_Proxy)
+trojan://humanity@www.creationlong.org:443?encryption=none&security=tls&sni=www.creationlong.org&fp=chrome&insecure=1&type=ws&path=%252fassignment#CA-%3E+(@DeamNet_Proxy)
+vless://3e40c799-dc8f-4155-a1bc-6a515f7cd0c2@185.143.233.68:443?encryption=none&security=tls&sni=backend.parhamm2.ir&fp=random&insecure=1&type=ws&host=backend.parhamm2.ir&path=%2F#IR-%3E+(@DeamNet_Proxy)
+vless://7d47ff30-74b2-47c7-b5bd-b06ef8b8f80e@go.inmobi.com:8080?encryption=none&security=none&type=ws&host=spring-flower-3254.magicnight101.workers.dev&path=%2F9pnugtdlg8br%3Fed%3D2560v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree%26#CA-%3EAZ+(@DeamNet_Proxy)
+
+
 vless://0ca855d9-7c03-40eb-929b-919f934abdc3@104.17.169.216:80?encryption=none&security=none&type=ws&host=amirvpn.amirhm00100.workers.dev&path=%2F%3Fed%3D2048#CA-%3EDE+(@DeamNet_Proxy)
 trojan://humanity@104.18.8.83:443?encryption=none&security=tls&sni=www.calmlunch.com&insecure=1&type=ws&path=%2Fassignment#CA-%3EFR+(@DeamNet_Proxy)
 trojan://humanity@104.18.9.83:443?encryption=none&security=tls&sni=www.calmlunch.com&insecure=1&type=ws&host=www.calmlunch.com&path=%2Fassignment#CA-%3EFR+(@DeamNet_Proxy)

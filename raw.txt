@@ -1,3 +1,6 @@
+trojan://mitivpn@188.114.97.6:443?security=tls&sni=mitivpn.global.ssl.95r.ir&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F720f09dba195249b423f771661162528%2Fworkers%2Fservices%2Fview%2Fmitivpn%2Fproduction%2Fsettings#%40DeamNet
+
+
 hysteria2://Masir_Sefid@18.157.205.223:4040?sni=qus.masir-sefid.shop&insecure=0&allowInsecure=0&obfs=salamander&obfs-password=Masir_Sefid#hs_%40deamnet
 vless://AM@45.144.54.229:1310?encryption=none&security=none&type=raw&headertype=http&host=play.google.com#%F0%9F%93%A1@DeamNet+(0)
 vless://ea665460-221d-4d9d-b672-8b6dae6ef400@62.3.12.171:8443?encryption=none&security=reality&sni=travel.yandex.ru&fp=chrome&pbk=l1wifJhEAz5W5969rpYY9c3tV4gZ6BjGSm2DbUXG920&sid=fb711576&spx=%2F&type=xhttp&path=%2F&mode=auto#%F0%9F%93%A1@DeamNet+(1)

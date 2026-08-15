@@ -15,7 +15,7 @@ DeamNet provides subscription links compatible with V2Ray-based clients and othe
 ### Subscription Link
 
 ```text
-[SUBSCRIPTION_LINK](https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt)
+https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
 ```
 
 Copy the subscription URL and add it to your preferred client.

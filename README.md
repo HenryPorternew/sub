@@ -19,6 +19,6 @@ https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
 3. 🔄 Update the subscription
 4. 🌐 Connect
 
-🔵 **Add To Hiddify App** [HIDDIFY_AUTO_ADD](hiddify://import/https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt)
+🔵 **Add To Hiddify App** hiddify://import/https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
 
 ✨ Stay updated on Telegram for the latest configs and announcements.

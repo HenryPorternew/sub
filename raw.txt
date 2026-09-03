@@ -1,7 +1,8 @@
-#Profile-Title: base64:4pqh77iPQERlYW1OZXQ
+#Profile-Title: [Telegram -> DeamNet]
 #profile-update-interval: 12
 #profile-web-page-url: https://github.com/HenryPorternew/sub
 #support-url: https://t.me/deamnet
+
 vless://255386a8-aec5-4425-bfe7-ca49b7448deb@193.160.32.36:2053?encryption=none&type=raw&security=reality&sni=play.google.com&fp=firefox&pbk=Sh2F8IDDBaFvXPI59IwN-25UR1G0fjXNmuVqwNbTpUk&sid=c87bfa39a28a95b9&headertype=none#US-%3EUS+(@DeamNet_Proxy)
 vless://38e1c7e8-fdcd-4396-a84c-550b05737308@8.212.177.111:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=ph1.hat.onl&fp=firefox&pbk=me6tyn-I8IolkgJK4sggSsC9sinhkLPBdPwtVlPk5TI&sid=0d6903ea350815e1&headertype=none#PH-%3E+(@DeamNet_Proxy)
 vless://6f361c37-bc54-43dd-8c8b-0f59354745a5@182.16.61.5:45647?encryption=none&type=raw&security=none&headertype=none#HK-%3EUS+(@DeamNet_Proxy)
@@ -93,10 +94,11 @@ vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPlVTIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6
 vless://b81b4d1b-7f20-48f1-82dc-d24bef898cab@161.97.160.224:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=passport.yandex.ru&pbk=33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0&sid=e6&headertype=none#-%3E+(@DeamNet_Proxy)
 vless://de38389f-5651-4f2f-8276-5aabf3b861c9@107.181.151.241:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.hollywoodreporter.com&fp=chrome&pbk=FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg&sid=225e930cfd4d&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
 
-#Profile-Title: @DeamNet
+#Profile-Title: base64:4pqh77iPQERlYW1OZXQ
 #profile-update-interval: 12
 #profile-web-page-url: https://github.com/HenryPorternew/sub
 #support-url: https://t.me/deamnet
+#Profile-Title: @DeamNet
 vless://8dd8af16-cae0-4431-b04c-a637b4d7645b@104.16.107.139:8880?encryption=none&security=none&type=ws&host=wild-frog-c709.403-6ff.workers.dev&path=%2Fpyip%3Dproxyip.us.cmliussss.net#CA-%3EDE+(@DeamNet_Proxy)
 vless://00ff7e5f-9b6f-4401-aab9-4d044660411f@104.17.25.173:8880?encryption=none&security=none&type=ws&host=summer-bonus-aa63.52-c03.workers.dev&path=%2Fpyip#CA-%3EDE+(@DeamNet_Proxy)
 vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.107.139:8880?encryption=none&security=none&type=ws&host=lingering-dawn-5d4a.163-3f1.workers.dev&path=%2Fpyip%3Dproxyip.us.cmliussss.net#CA-%3EDE+(@DeamNet_Proxy)

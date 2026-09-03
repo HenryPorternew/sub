@@ -10,15 +10,11 @@
 https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
 ```
 
-
-
 📲 **How to use:**
 
 1. Copy the link
 2. Add it to your V2Ray/Xray client
 3. 🔄 Update the subscription
 4. 🌐 Connect
-
-🔵 **Add To Hiddify App** hiddify://import/https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
 
 ✨ Stay updated on Telegram for the latest configs and announcements.

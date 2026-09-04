@@ -93,11 +93,24 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.197:23576?encryption=none
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPlVTIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICI2Ny4yMjAuNzIuMjM3IiwgInBvcnQiIDogIjIyMzI0IiwgImlkIiA6ICIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCAic2N5IiA6ICJhdXRvIiwgIm5ldCIgOiAicmF3IiwgInR5cGUiIDogIm5vbmUiIH0=
 vless://b81b4d1b-7f20-48f1-82dc-d24bef898cab@161.97.160.224:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=passport.yandex.ru&pbk=33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0&sid=e6&headertype=none#-%3E+(@DeamNet_Proxy)
 vless://de38389f-5651-4f2f-8276-5aabf3b861c9@107.181.151.241:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.hollywoodreporter.com&fp=chrome&pbk=FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg&sid=225e930cfd4d&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vless://94a5294d-1125-4139-8934-380c5de5552f@109.121.44.51:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=4a7b1c8d&headertype=none#NL-%3ENL+(@DeamNet_Proxy)
+trojan://7e70223b-f331-41d5-9313-02b8d2df2885@d3.catcat321.com:20032?type=raw&security=tls&sni=hk.catxstar.com&alpn=http%2F1.1&fp=chrome&headertype=none#HK-%3E+(@DeamNet_Proxy)
+vless://b97e287f-a24e-0021-a103-7e7ecef83139@5.61.91.218:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=qq&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vless://31216f81-3139-0021-bac4-646680314264@185.218.194.71:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=chrome&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vless://b97e287f-a24e-0021-a103-7e7ecef83139@2.26.147.118:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=qq&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiZ3VhbndhbmcuYXdzbm8uY29tIiwgInBvcnQiIDogIjQ0MyIsICJpZCIgOiAiNmE4OWEyMTUtMjJiZi00YmQ3LTk2NDItYjk1YjJlMDk1ODNhIiwgInNjeSIgOiAiYXV0byIsICJuZXQiIDogInJhdyIsICJ0eXBlIiA6ICJub25lIiwgInRscyIgOiAidGxzIiwgImluc2VjdXJlIiA6ICIwIiB9
+vless://41e71ba7-d389-47aa-94f7-ed1f55fdbcdf@194.93.61.86:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=cdnjs.com&fp=qq&pbk=E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ&sid=17d334ad29b2ff40&headertype=none#NL-%3ENL+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVEgtPlRIIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICIxMTkuNDYuNTEuNDUiLCAicG9ydCIgOiAiMzc1MTUiLCAiaWQiIDogIjliNzZiYzMxLTE3YTUtNDQ1NC05MzRhLThkNWZiNjAyY2Q3MCIsICJzY3kiIDogImF1dG8iLCAibmV0IiA6ICJyYXciLCAidHlwZSIgOiAibm9uZSIgfQ==
+vless://f5a3bf49-07ca-0021-a96b-9606781e3600@2.26.147.116:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=6e3f0a5b&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vless://5b3fa84b-376e-400d-8a97-34e557b0d89c@83.136.208.168:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.lovelace.com&fp=firefox&pbk=qQ4l40OckukEo2OoCTIpLrxBHKRa277XXhUAf3SYEhM&sid=abd0f00f85f814a1&headertype=none#FR-%3EFR+(@DeamNet_Proxy)
+vless://b97e287f-a24e-0021-a103-7e7ecef83139@185.218.194.73:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.amd.com&fp=qq&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6&headertype=none#FI-%3EFI+(@DeamNet_Proxy)
+vless://5b3fa84b-376e-400d-8a97-34e557b0d89c@fr3.green-tg.com:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.lovelace.com&fp=firefox&pbk=qQ4l40OckukEo2OoCTIpLrxBHKRa277XXhUAf3SYEhM&sid=abd0f00f85f814a1&headertype=none#FR-%3EFR+(@DeamNet_Proxy)
 
-#Profile-Title: base64:4pqh77iPQERlYW1OZXQ
+#Profile-Title: [Telegram -> DeamNet]
 #profile-update-interval: 12
 #profile-web-page-url: https://github.com/HenryPorternew/sub
 #support-url: https://t.me/deamnet
+#Profile-Title: base64:4pqh77iPQERlYW1OZXQ
 #Profile-Title: @DeamNet
 vless://8dd8af16-cae0-4431-b04c-a637b4d7645b@104.16.107.139:8880?encryption=none&security=none&type=ws&host=wild-frog-c709.403-6ff.workers.dev&path=%2Fpyip%3Dproxyip.us.cmliussss.net#CA-%3EDE+(@DeamNet_Proxy)
 vless://00ff7e5f-9b6f-4401-aab9-4d044660411f@104.17.25.173:8880?encryption=none&security=none&type=ws&host=summer-bonus-aa63.52-c03.workers.dev&path=%2Fpyip#CA-%3EDE+(@DeamNet_Proxy)

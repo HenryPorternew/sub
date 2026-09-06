@@ -2,6 +2,20 @@
 #profile-update-interval: 12
 #profile-web-page-url: https://github.com/HenryPorternew/sub
 #support-url: https://t.me/deamnet
+trojan://humanity@216.24.57.7:443?type=ws&security=tls&sni=www.ignitelimit.com&alpn=http%2F1.1&fp=chrome&path=%2Fassignment#US-%3E+(@DeamNet_Proxy)
+vless://9e6b8db1-da80-494f-bad7-7a0451f801a1@5.152.223.193:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=strapi.io&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&sid=fd55b698ee8c3629&headertype=none#GB-%3EGB+(@DeamNet_Proxy)
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yahoo.com&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a&headertype=none#US-%3EUS+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiSEstPkhLIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICI0Ny4yNDQuMTIwLjE5NyIsICJwb3J0IiA6ICIzNjcwMyIsICJpZCIgOiAiNDViODM1MTktOWM0Zi00MDUyLWExMWItMDJlMDE3YjYzNmQ0IiwgInNjeSIgOiAiYXV0byIsICJuZXQiIDogIndzIiwgInBhdGgiIDogIi9hcmtpP2VkPTIwNDgiIH0=
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiU0ctPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiMTQ5Ljg4LjIzLjIwNyIsICJwb3J0IiA6ICIxODAwMCIsICJpZCIgOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgInNjeSIgOiAiYXV0byIsICJuZXQiIDogInJhdyIsICJ0eXBlIiA6ICJub25lIiB9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.147:8080#NL-%3ENL+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPlVTIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICI4Mi4xOTguMjQ2LjIzMyIsICJwb3J0IiA6ICIxODAiLCAiaWQiIDogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsICJzY3kiIDogImFlcy0xMjgtZ2NtIiwgIm5ldCIgOiAicmF3IiwgInR5cGUiIDogIm5vbmUiIH0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.230:443#NL-%3ENL+(@DeamNet_Proxy)
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yahoo.com&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a&headertype=none#US-%3E+(@DeamNet_Proxy)
+trojan://humanity@185.18.250.252:443?type=ws&security=tls&sni=www.calmlunch.com&fp=chrome&host=www.calmlunch.com&path=%2Fassignment#ES-%3E+(@DeamNet_Proxy)
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@84.247.49.211:1080#-%3E+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiUlUtPkRFIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCAicG9ydCIgOiAiNDQzIiwgImlkIiA6ICJkYjUwYTIwZS03ZmY1LTRlNzAtOTQ4Zi0xN2NjOWNhN2MxNTQiLCAic2N5IiA6ICJhdXRvIiwgIm5ldCIgOiAid3MiLCAiaG9zdCIgOiAicmVuZGVyZXItc3RyZWFtLTItNjIubWlycmEubm93IiwgInBhdGgiIDogIi9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCAidGxzIiA6ICJ0bHMiLCAic25pIiA6ICJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCAiaW5zZWN1cmUiIDogIjAiIH0=
+vless://7893b302-3882-4c38-9ab6-6313f1575d1a@188.114.97.6:443?encryption=none&type=ws&security=tls&sni=cf.udpid.org&fp=unsafe&host=cf.udpid.org&path=%2F@zyzzzoao#CA-%3EUS+(@DeamNet_Proxy)
+
 vless://255386a8-aec5-4425-bfe7-ca49b7448deb@193.160.32.36:2053?encryption=none&type=raw&security=reality&sni=play.google.com&fp=firefox&pbk=Sh2F8IDDBaFvXPI59IwN-25UR1G0fjXNmuVqwNbTpUk&sid=c87bfa39a28a95b9&headertype=none#US-%3EUS+(@DeamNet_Proxy)
 vless://38e1c7e8-fdcd-4396-a84c-550b05737308@8.212.177.111:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=ph1.hat.onl&fp=firefox&pbk=me6tyn-I8IolkgJK4sggSsC9sinhkLPBdPwtVlPk5TI&sid=0d6903ea350815e1&headertype=none#PH-%3E+(@DeamNet_Proxy)
 vless://6f361c37-bc54-43dd-8c8b-0f59354745a5@182.16.61.5:45647?encryption=none&type=raw&security=none&headertype=none#HK-%3EUS+(@DeamNet_Proxy)
@@ -29,7 +43,6 @@ vless://caec0d8d-ab2f-4247-b97d-7fb1a34ab195@180.178.60.254:10000?encryption=non
 vless://511c1563-2cb6-4064-abc6-a59ee49818a8@5.253.30.99:40443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=deepl.com&fp=chrome&pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&sid=88b6&spx=%2F&headertype=none#IN-%3EIN+(@DeamNet_Proxy)
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001#GB-%3E+(@DeamNet_Proxy)
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiMTY1LjE0MC4yMTYuMTQyIiwgInBvcnQiIDogIjQ0MyIsICJpZCIgOiAiYjY1YTJkNjktNTYzNC00MmEyLWU0YmUtNTRlOGE2MTc2OTAwIiwgInNjeSIgOiAiYXV0byIsICJuZXQiIDogInJhdyIsICJ0eXBlIiA6ICJub25lIiB9
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yahoo.com&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a&headertype=none#US-%3E+(@DeamNet_Proxy)
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.25:23576?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fuck.rkn&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&headertype=none#NL-%3ENL+(@DeamNet_Proxy)
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.144:8080#NL-%3E+(@DeamNet_Proxy)
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.apple.com&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&headertype=none#JP-%3EJP+(@DeamNet_Proxy)
@@ -131,7 +144,6 @@ vless://0370b162-baff-4757-86cc-cce4bf07f6f1@78.111.89.171:443?encryption=none&t
 vless://3aaf6f5a-bebe-42c9-a2da-0c5500146451@194.110.207.75:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fernandfoxgloveinteriors.co.uk&fp=chrome&pbk=wHf1nSF3byWgtI0aprUDgbEBrgtE6Y8bpqnNxl9lhhg&sid=763a06472e66efff&headertype=none#NO-%3E+(@DeamNet_Proxy)
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiS1ItPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiMjE3LjE0Mi4xMzguNjEiLCAicG9ydCIgOiAiODAiLCAiaWQiIDogImFjMWI5MzNkLWFmZmYtNDQ4Ny05M2VmLWY1NzEzMGE1NWRmZiIsICJzY3kiIDogImF1dG8iLCAibmV0IiA6ICJyYXciLCAidHlwZSIgOiAiaHR0cCIgfQ==
 ss://YWVzLTI1Ni1nY206Z2oxK1hLdWxLVjBubXc2SVRoY2tPa2tKaDVEU003K0M=@45.207.207.25:443#US-%3EUS+(@DeamNet_Proxy)
-
 vless://8dd8af16-cae0-4431-b04c-a637b4d7645b@104.16.107.139:8880?encryption=none&security=none&type=ws&host=wild-frog-c709.403-6ff.workers.dev&path=%2Fpyip%3Dproxyip.us.cmliussss.net#CA-%3EDE+(@DeamNet_Proxy)
 vless://00ff7e5f-9b6f-4401-aab9-4d044660411f@104.17.25.173:8880?encryption=none&security=none&type=ws&host=summer-bonus-aa63.52-c03.workers.dev&path=%2Fpyip#CA-%3EDE+(@DeamNet_Proxy)
 vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.107.139:8880?encryption=none&security=none&type=ws&host=lingering-dawn-5d4a.163-3f1.workers.dev&path=%2Fpyip%3Dproxyip.us.cmliussss.net#CA-%3EDE+(@DeamNet_Proxy)

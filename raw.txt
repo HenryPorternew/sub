@@ -1,3 +1,9 @@
+#Profile-Title: [Telegram -> DeamNet]
+#profile-update-interval: 12
+#profile-web-page-url: https://github.com/HenryPorternew/sub
+#support-url: https://t.me/deamnet
+
+
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVFctPlRXIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICIxNjUuMTU0LjE5NS4zOCIsICJwb3J0IiA6ICIzNTAzNCIsICJpZCIgOiAiOTU5YThjYWYtNGNlYS00M2QwLWE1NDgtMzYyOGU3ZGRmYWZjIiwgInNjeSIgOiAiYXV0byIsICJuZXQiIDogInJhdyIsICJ0eXBlIiA6ICJub25lIiB9
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiVVMtPlVTIChARGVhbU5ldF9Qcm94eSkiLCAiYWRkIiA6ICIyMTYuMTUyLjE1Mi4xODciLCAicG9ydCIgOiAiMjIzMjQiLCAiaWQiIDogIjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsICJzY3kiIDogImF1dG8iLCAibmV0IiA6ICJyYXciLCAidHlwZSIgOiAibm9uZSIgfQ==
 vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.15:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yahoo.com&fp=firefox&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a&headertype=none#US-%3EUS+(@DeamNet_Proxy)

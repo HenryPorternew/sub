@@ -508,3 +508,4 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.206:23576?encryption=none
 vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiSU4tPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiMjAuMjM1LjIyMC4xODkiLCAicG9ydCIgOiAiNDQzIiwgImlkIiA6ICJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsICJzY3kiIDogImF1dG8iLCAibmV0IiA6ICJ3cyIsICJob3N0IiA6ICI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCAicGF0aCIgOiAiL3dzLXZtZXNzIiwgInRscyIgOiAidGxzIiwgInNuaSIgOiAiNkpEdkFyYXpnVTNxUVI2US52LjNkbnMudmlwIiwgImluc2VjdXJlIiA6ICIwIiB9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.202:8080#-%3ENL+(@DeamNet_Proxy)
 trojan://humanity@www.speedtest.net:443?type=ws&security=tls&sni=www.calmlunch.com&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&host=www.calmlunch.com&path=%2Fassignment#CA-%3EFR+(@DeamNet_Proxy)
+trojan://7e70223b-f331-41d5-9313-02b8d2df2885@krhtybay.catcat321.com:20010?type=raw&security=tls&sni=hk.catxstar.com&alpn=http%2F1.1&fp=chrome&headertype=none#SG-%3E+(@DeamNet_Proxy)

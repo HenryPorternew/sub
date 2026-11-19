@@ -920,3 +920,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.25:23576?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fuck.rkn&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headertype=none#NL-%3ENL+(@DeamNet_Proxy)
 vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@188.114.97.6:443?encryption=none&type=ws&security=tls&sni=jp3.yohototo.top&alpn=http%2F1.1&fp=unsafe&host=jp3.yohototo.top&path=%2Ftyxyws#CA-%3EJP+(@DeamNet_Proxy)
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.26:23576?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fuck.rkn&fp=random&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headertype=none#NL-%3ENL+(@DeamNet_Proxy)
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==@glance.asuscomm.com:10099#KR-%3EKR+(@DeamNet_Proxy)
+vmess://eyAidiIgOiAiMiIsICJwcyIgOiAiSEstPiAoQERlYW1OZXRfUHJveHkpIiwgImFkZCIgOiAiemZkLWpwdjIua3VubHVuMDFkbnMuY29tIiwgInBvcnQiIDogIjE2MTIwIiwgImlkIiA6ICIwODAyYWMwMy03OTczLTM5ZWYtYTAxOS1iYTAyZGU2YzAxZTEiLCAic2N5IiA6ICJhdXRvIiwgIm5ldCIgOiAicmF3IiwgInR5cGUiIDogIm5vbmUiIH0=
